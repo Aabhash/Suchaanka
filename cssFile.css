@@ -51,31 +51,7 @@ body {
 	margin-right: 200px;	
 	background-image: url();
 }
-#Fourth{
-	text-align: center;
-	vertical-align: middle;
-	border:1px solid black;
-	float: left;
-	width: 250px;
-	height: 250px;
-	padding-top: 10px;
-	margin-top: 30px;
-	margin-left: 320px;
-	margin-right: 120px;	
-	background-image: url();
-}
-#Fifth{
-	text-align: center;
-	vertical-align: middle;
-	border:1px solid black;
-	float: left;
-	width: 250px;
-	height: 250px;
-	padding-top: 10px;
-	margin-top: 30px;
-	
-	background-image: url();
-}
+
 .navigation{
 transition: 0.5s;
 }
@@ -87,7 +63,7 @@ font-weight:bold;
 }
 
 .navigation:hover{
-background:#b39;
+background:#b99;
 border-bottom:#eee;
 color:#edd;
 text-decoration:underline;
