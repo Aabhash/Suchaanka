@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    
 
 }
 
@@ -23,9 +23,7 @@ body {
 	height: 250px;
 	padding-top: 10px;
 	margin-left: 200px;
-
 	background-image: url("bc.jpeg");
-
 	background-repeat: no-repeat;
 }
 
@@ -41,16 +39,14 @@ body {
 	margin-right: 80px;
 	background-image: url();
 }
-#Third{
-	text-align: center;
-	vertical-align: middle;
+#map{
 	border:1px solid black;	
 	float:left;
 	width: 250px;
 	height: 250px;
 	padding-top: 10px;
-	margin-right: 200px;	
-	background-image: url();
+	margin-right: 200px;
+	margin-top: 100px;	
 }
 
 .navigation{
