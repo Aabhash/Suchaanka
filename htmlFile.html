@@ -11,33 +11,37 @@
 		<div id="Hding">
 			<h1>Heading of the page</h1>
 		</div>
-		
-		<div id="First" class="navigation">
-		
-		<p> <a href="#1"> Questions </a></p>
-		</div>
+		<table>	 
+			<tr>
+				<td>
+					<div id="First" class="navigation">
+					<p> <a href="#1"> Questions </a></p>
+					</div>
+				</td>
+				<td>
+					<div id= "Second" class="navigation">
+					<p> <a href="#2">Issues</a> </p>
+					</div>
+				</td>
+				<td>
+					<div id="map" style="width:250px;height:250px;background:yellow"></div>		
+					
+						<script type="text/javascript">
+						function myMap() {
+			   			 var mapOptions = {
+						        center: new google.maps.LatLng(51.5, -0.12),
+						        zoom: 10,
+						        mapTypeId: google.maps.MapTypeId.HYBRID
+						    }
+						var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+						}
+						</script>
 
-		<div id= "Second" class="navigation">
-		
-			<p> <a href="#2">Issues</a> </p>
-		
-		</div>
-
-		<div id="map" style="width:250px;height:250px;background:yellow"></div>		
-		
-			<script type="text/javascript">
-			function myMap() {
-   			 var mapOptions = {
-			        center: new google.maps.LatLng(51.5, -0.12),
-			        zoom: 10,
-			        mapTypeId: google.maps.MapTypeId.HYBRID
-			    }
-			var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-			}
-			</script>
-
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-			</div>
+						<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+					</div>
+				</td>
+			</tr>
+		</table>
 	</body>	
 
 </html>
