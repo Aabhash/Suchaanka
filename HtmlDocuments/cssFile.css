@@ -43,8 +43,10 @@ header
 	margin-right: 80px;
 	background-image: url();
 }
-#map
+#Third
 {
+	text-align: center;
+	vertical-align: middle;
 	border:1px solid black;	
 	float:left;
 	width: 250px;
