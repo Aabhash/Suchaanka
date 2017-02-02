@@ -2,6 +2,7 @@ body
 {
     max-width: 1200px;
     margin: 0 auto; 
+    background: linear-gradient(#988C90, #000000);
 }
 
 header
@@ -9,9 +10,8 @@ header
 	float: left;
 	width: 100%;
 	height: 30%;	
-	margin: 1% 0;
 	color: rgb(100,100,0);
-	border: 5px solid black;
+	border: 2px solid black;
 	border-radius: 0px 10px;
 	box-shadow: 5px 5px 10px;
 }
@@ -32,7 +32,6 @@ nav
 	border: 1px solid black;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px;
-	margin-bottom: 1%;
 }
 
 nav div 
@@ -48,10 +47,9 @@ footer
 {
 	float: left;
 	width: 100%;
-	height: 30%;	
-	margin: 1% 0;
+	height: 30%;
 	color: rgb(100,100,0);
-	border: 5px solid black;
+	border: 2px solid black;
 	border-radius: 10px 0px;
 	box-shadow: 5px 5px 10px;
 }
@@ -65,12 +63,13 @@ footer h4
 {
 	margin: 6% 5%;
 	text-align: center;
-	border:1px solid black;	
+	border:1px solid #8C3050;	
 	float:left;
 	width: 22%;
 	height: 250px;
 	padding-top: 10px;
 	box-shadow: 4px 4px 8px;
+	border-radius: 10px;
 }
 
 #CFirst
@@ -89,22 +88,29 @@ footer h4
 	margin : 0% 2.5%;
 	float: left;
 	width: 95%;
-	height : 600px;
-	border: 4px solid black;
+	height: 700px;
+	border: 2px solid black;
+	background: linear-gradient(to bottom right, #9DC2B3, #021E29);
+}
+
+.MainDiv table
+{
+	width: 100%;
+	height: 100%;
 }
 
 .navigation
 {
-transition: 0.5s;
-text-decoration:none;
-color: #a22;
-font-weight:bold;
+	transition: 0.5s;
+	text-decoration:none;
+	color: #a22;
+	font-weight:bold;
 }
 
 .navigation:hover
 {
-background:#b99;
-border-bottom:#eee;
-color:#edd;
-text-decoration:underline;
+	background:#b99;
+	border-bottom:#eee;
+	color:#edd;
+	text-decoration:underline;
 }
