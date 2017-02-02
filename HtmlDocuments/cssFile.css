@@ -14,8 +14,35 @@ header
 	border: 5px solid black;
 	border-radius: 0px 10px;
 	box-shadow: 5px 5px 10px;
+}
+
+header h1
+{
+	color: #AAD5FE;
+	text-align: center;
+	padding: 2% 2%; 
+	text-shadow: 5px 10px 10px black; 
+}
+
+nav
+{
+	height: 10%;
+	width: 100%;
+	float: left; 
+	border: 1px dotted black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px;
+}
+
+nav div 
+{
+	width: 10%; 
+	border: 1px solid black;
+	float: left; 
+	padding: 1% 2%;
 	text-align: center;
 }
+
 #First
 {
 	text-align: center;
