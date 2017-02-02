@@ -44,6 +44,23 @@ nav div
 	text-align: center;
 }
 
+footer 
+{
+	float: left;
+	width: 100%;
+	height: 30%;	
+	margin: 1% 0;
+	color: rgb(100,100,0);
+	border: 5px solid black;
+	border-radius: 10px 0px;
+	box-shadow: 5px 5px 10px;
+}
+
+footer h4
+{
+	text-align:right;
+}
+
 #CFirst, #CSecond, #CThird
 {
 	margin: 6% 5%;
@@ -67,10 +84,11 @@ nav div
 {
 }
 
-.CDiv
+.MainDiv
 {
-	float:left;
+	float: left;
 	width: 100%;
+	height : 600px;
 	border: 4px solid black;
 }
 
@@ -82,7 +100,8 @@ color: #a22;
 font-weight:bold;
 }
 
-.navigation:hover{
+.navigation:hover
+{
 background:#b99;
 border-bottom:#eee;
 color:#edd;
