@@ -5,6 +5,12 @@ body
     background: linear-gradient(#988C90, #000000);
 }
 
+/*Header CSS*/
+header,nav,footer
+{
+	display:block;
+}
+
 header
 {
 	float: left;
@@ -18,31 +24,80 @@ header
 
 header h1
 {
+	float: left;
 	color: #AAD5FE;
-	text-align: center;
+	text-align: left;
 	padding: 2% 2%; 
 	text-shadow: 5px 10px 10px black; 
 }
 
-nav
+/*Header Tabs CSS*/
+.TabList
 {
-	height: 10%;
-	width: 100%;
-	float: left; 
-	border: 1px solid black;
-	border-radius: 10px;
-	box-shadow: 5px 5px 10px;
+	margin: 0px; 
+	padding: 0px; 
+	overflow: hidden; 
+	background: none;
+	list-style-type: none;
 }
 
-nav div 
+.TabList li
 {
-	width: 20%; 
-	border: 1px solid black;
-	float: left; 
-	padding: 1% 2%;
-	text-align: center;
+	float: right; 
 }
 
+.TabList li a 
+{
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.TabList li.ExpandIcon 
+{
+	display: none;
+}
+
+@media screen and (max-width:680px) 
+{
+  .TabList li:not(:first-child) 
+  {
+  	display: none;
+  }
+  .TabList li.ExpandIcon 
+  {
+    float: right;
+    display: inline-block;
+ }
+}
+@media screen and (max-width:680px) 
+{
+  .TabList.responsive
+  {
+  	position: relative;
+  }
+  TabList.responsive li.ExpandIcon
+  {
+  	position: absolute;
+  	right: 0;
+  	top: 0;
+  }
+  .Tablist.responsive li
+  {
+  	float: none; 
+  	display: inline; 
+  }
+  .Tablist.responsive li a
+  {
+  	display:block; 
+  	text-align: left;
+  }
+}
+
+/*Footer CSS*/
 footer 
 {
 	float: left;
@@ -63,6 +118,7 @@ footer address
 	text-shadow: 1px 1px 0px; 
 }
 
+/*Main Body CSS*/
 #CFirst, #CSecond, #CThird
 {
 	margin: 6% 5%;
