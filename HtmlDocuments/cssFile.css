@@ -6,10 +6,6 @@ body
 }
 
 /*Header CSS*/
-header,nav,footer
-{
-	display:block;
-}
 
 header
 {
@@ -24,26 +20,36 @@ header
 
 header h1
 {
-	float: left;
 	color: #AAD5FE;
-	text-align: left;
+	text-align: center;
 	padding: 2% 2%; 
 	text-shadow: 5px 10px 10px black; 
 }
 
 /*Header Tabs CSS*/
+nav
+{	
+	height: 40px;
+	width: 100%;
+	float: left; 
+	border: 1px solid black;
+	box-shadow: 5px 5px 10px;
+	background-color: #333;
+}
+
 .TabList
 {
+        float:left;
+	margin-top: 5%;
 	margin: 0px; 
 	padding: 0px; 
 	overflow: hidden; 
-	background: none;
 	list-style-type: none;
 }
 
 .TabList li
 {
-	float: right; 
+	float: left; 
 }
 
 .TabList li a 
@@ -51,17 +57,22 @@ header h1
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
+  	padding : 12px 15px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
 }
 
+.TabList li a:hover
+{
+  background-color:#555;
+}
 .TabList li.ExpandIcon 
 {
 	display: none;
 }
 
-@media screen and (max-width:680px) 
+@media screen and (max-width:280px) 
 {
   .TabList li:not(:first-child) 
   {
@@ -73,7 +84,7 @@ header h1
     display: inline-block;
  }
 }
-@media screen and (max-width:680px) 
+@media screen and (max-width:280px) 
 {
   .TabList.responsive
   {
@@ -174,3 +185,4 @@ footer address
 	color:#edd;
 	text-decoration:underline;
 }
+
