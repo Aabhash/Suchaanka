@@ -34,7 +34,6 @@ footer
 	height: 30%;
 	color: rgb(100,100,0);
 	border: 2px solid black;
-	border-radius: 10px 0px;
 	box-shadow: 5px 5px 10px;
 }
 
@@ -58,7 +57,7 @@ footer address
 	height: 250px;
 	padding-top: 10px;
 	box-shadow: 4px 4px 8px;
-	border-radius: 10px;
+	border-radius: 3px;
 }
 
 #CFirst
@@ -75,11 +74,13 @@ footer address
 .MainDiv
 {
 	margin : 0% 2.5%;
+	margin-top : 51px;
 	float: left;
 	width: 95%;
 	height: 700px;
 	border: 2px solid black;
 	background: linear-gradient(to bottom right, #9DC2B3, #021E29);
+	border-radius: 0px;
 }
 
 .MainDiv table
