@@ -3,26 +3,44 @@
 	<head>
 		<meta charset="UTF-8">
 		<title> Home Page </title>
+
+		<!-- BootStrap Links-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  		<!-- Local Links -->
 		<link rel="stylesheet" type="text/css" href="cssFile.css">
+		<script src="JavascriptFile.js"></script>
 	</head>
 	<body>
 
-		<!-- Heading Part of Home Page -->
-		<header>
-			<h1>Heading of the page</h1>
-		</header>
+		<!-- Heading and Tabs of Home Page -->
+	
 
-		<!-- Tabs -->
-		<nav>
-			<div> 
-				<p>Tab1</p>
-			</div>
-			<div>
-				<p>Tab2</p>
-			</div>
-			<div>
-				<p>Tab3</p>
-			</div>
+		<!-- Nav Bar Bootstrap-->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+		      <a class="navbar-brand" href="#">Heading</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Home</a></li>
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Contact</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		      </ul>
+		    </div>
+		  </div>
 		</nav>
 
 		<!-- Content Section -->

@@ -5,6 +5,8 @@ body
     background: linear-gradient(#988C90, #000000);
 }
 
+/*Header CSS*/
+
 header
 {
 	float: left;
@@ -24,25 +26,7 @@ header h1
 	text-shadow: 5px 10px 10px black; 
 }
 
-nav
-{
-	height: 10%;
-	width: 100%;
-	float: left; 
-	border: 1px solid black;
-	border-radius: 10px;
-	box-shadow: 5px 5px 10px;
-}
-
-nav div 
-{
-	width: 20%; 
-	border: 1px solid black;
-	float: left; 
-	padding: 1% 2%;
-	text-align: center;
-}
-
+/*Footer CSS*/
 footer 
 {
 	float: left;
@@ -63,6 +47,7 @@ footer address
 	text-shadow: 1px 1px 0px; 
 }
 
+/*Main Body CSS*/
 #CFirst, #CSecond, #CThird
 {
 	margin: 6% 5%;
@@ -118,3 +103,4 @@ footer address
 	color:#edd;
 	text-decoration:underline;
 }
+
