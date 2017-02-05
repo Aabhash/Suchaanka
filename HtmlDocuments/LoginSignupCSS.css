@@ -1,7 +1,24 @@
+body{
+	background-color:#708090;
+}
 form{
-	margin-top: 10%;
+	margin-top : 10%;
+	
+
+}
+form table{
+	border:1px solid black;
+	height: 50px;
+	padding:10%;
+	
 }
 
+table table{
+	border:none;
+	margin-bottom: 20%;
+	box-shadow: none;
+
+}
 input[type=text] ,input[type=password]{
     width: 100%;
     border-radius: 5px;
