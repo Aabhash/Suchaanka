@@ -28,7 +28,7 @@
 		    </div>
 		    <div class="collapse navbar-collapse" id="myNavbar">
 		      <ul class="nav navbar-nav">
-		        <li ><a href="htmlFile.html">Home</a></li>
+		        <li ><a href="HomePage.html">Home</a></li>
 		        <li><a href="#">About</a></li>
 		        <li><a href="#">Contact</a></li>
 		      </ul>
@@ -41,32 +41,40 @@
 		</nav>
 
 		<!--Content -->
-
+<div id="SignUp">
 	<form name="SignUpForm" method="post" action="">
 		<table align="center">
- 			<tr>
+			<tr>
  				<td>
  					<fieldset>
  					<legend>Personal Info</legend>
+ 					<div id="PersonalInfo">
  					 <table>
 					    <tr>
-					      <td align="right">First Name:</td>
-					      <td align="left"><input type="text" name="first" /></td>
+					      <td>
+					       		<span class="fontawesome-book"></span>
+					          	<input type="text" id="fname" placeholder="First Name"> 
+					      </td> 
 					    </tr>
 					    <tr>
-					      <td align="right">Middle Name:</td>
-					      <td align="left"><input type="text" name="middle" /></td>
-					    </tr>
+					      <td>
+					       		<span class="fontawesome-book"></span>
+					          	<input type="text" id="mname" placeholder="Middle Name"> 
+					      </td>
 					    <tr>
-					      <td align="right">Last Name:</td>
-					      <td align="left"><input type="text" name="last" /></td>
+					      <td>
+					       		<span class="fontawesome-book"></span>
+					          	<input type="text" id="lname" placeholder="Last Name"> 
+					      </td>
 					    </tr>
 					     <tr>
-					      <td align="right">Email:</td>
-					      <td align="left"><input type="text" name="email" /></td>
+					      <td>
+					       		<span class="fontawesome-envelope"></span>
+					          	<input type="text" id="email" placeholder="Email"> 
+					      </td>
 					    </tr>
 					  </table>
-
+					</div>
  					</fieldset>
  				</td>
  			</tr>
@@ -75,19 +83,27 @@
  			<td>
  						<fieldset>
  						<legend>Login Info</img></legend>
- 						 <table>
-					    <tr>
-					      <td align="right">User Name:</td>
-					      <td align="left"><input type="text" name="UserName" /></td>
-					    </tr>
-					    <tr>
-					      <td align="right">Password:</td>
-					      <td align="left"><input type="password" name="Password" /></td>
-					    </tr>
-					    <tr>
-					      <td align="right">Repeat Password:</td>
-					      <td align="left"><input type="password" name="repeatPwd" /></td>
-					    </tr>
+ 						<div id="login">
+ 						<table>
+ 						
+					       <tr> 
+					       	<td>
+					       		<span class="fontawesome-user"></span>
+					          	<input type="text" id="user" placeholder="Username"> 
+					      </td>
+					     </tr>
+					      <tr>
+					      	<td>
+					        <span class="fontawesome-lock"></span>
+					          <input type="password" id"pass" placeholder="Password">
+					      </td>
+					  </tr>
+					     <tr>
+					      	<td>
+					        <span class="fontawesome-lock"></span>
+					          <input type="password" id"repeatPass" placeholder="Repeat Password">
+					      </td>
+					  </tr>
 					     <tr>
 					        <td align="left"><input type="button" value="Verify" /></td>
 					    </tr>
@@ -95,11 +111,13 @@
 					        <td align="left"><input type="submit" value="Submit" /></td>
 					    </tr>
 					  </table>
+					</div>
 					</fieldset>
 				</td>
  			</tr>
  				
  		</table>
 		</form>
+	</div>
 	</body>
 	</html>
