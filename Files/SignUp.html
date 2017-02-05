@@ -42,8 +42,11 @@
 
 		<!--Content -->
 <div id="SignUp">
-	<form name="SignUpForm" method="post" action="">
-		<table align="center">
+	<table>
+		<tr>
+			<td>
+			<form name="PersonalInfoForm" method="post" action="">
+			<table align="center">
 			<tr>
  				<td>
  					<fieldset>
@@ -78,7 +81,12 @@
  					</fieldset>
  				</td>
  			</tr>
-
+ 		</table>
+ 		</form>
+ 	</td>
+ 	<td>
+ 		<form name="LoginInfoForm" method="post" action="">
+ 			<table align="center">
  			<tr>
  			<td>
  						<fieldset>
@@ -104,10 +112,7 @@
 					          <input type="password" id"repeatPass" placeholder="Repeat Password">
 					      </td>
 					  </tr>
-					     <tr>
-					        <td align="left"><input type="button" value="Verify" /></td>
-					    </tr>
-					     <tr>
+					    <tr>
 					        <td align="left"><input type="submit" value="Submit" /></td>
 					    </tr>
 					  </table>
