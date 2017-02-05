@@ -12,10 +12,14 @@ body
 nav
 {
 		font-family: "Verdana", "Helvetica Neue";
-	  	text-transform: uppercase;
 	  	font-weight: 500;
 	  	border: none;
 		box-shadow: 5px 5px 10px #202020;
+}
+nav li:hover
+{
+		background-color: grey;
+		border-radius: 5px; 
 }
 
 /*Footer CSS*/
@@ -43,25 +47,57 @@ footer address
 .CompDiv
 {
 		width: 100%;
-		height: 790px;
+		height: 900px;
 		float: left;
 		margin-top: 50px;
-		border: 10px solid black;
 		background-color: red;
 }
+
+/*Side Navigation*/
 .CompDiv .SNav
 {
 	float: left;
-	height: 770px;
-	width: 20%;
+	height: 890px;
+	width: 10%;
+	max-width: 100%;
 	background-color: white; 
-	border: 10px solid black;
+	transition: all ease 0.5s;
 }
+.CompDiv .SNav:hover
+{
+	width: 20%;
+	transition: all ease 0.5s;
+
+}
+.CompDiv .SNav ul
+{
+	margin-top: 20px;
+	width: inherit;
+	text-align:center; 
+	font-family: "Courier New";
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-shadow: 1px 1px 1px;
+}
+
+.CompDiv .SNav ul li
+{
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.CompDiv .SNav ul li:hover
+{
+	background-color: black;
+}
+
+/*Question Section*/
 .CompDiv .QDiv
 { 
 	float: left;
-	height: 770px;
+	height: 890px;
 	width: 80%;
-	border: 10px solid black;
 	background-color: blue;
 }
+
