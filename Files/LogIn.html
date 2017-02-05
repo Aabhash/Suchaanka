@@ -10,8 +10,11 @@
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+<!--External link-->
+  		 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
+
   		<!--Local Links -->
-		<link rel="stylesheet" type="text/css" href="CSS\LoginSignupCSS.css">
+		<link rel="stylesheet" type="text/css" href="CSS\LoginCSS.css">
 	</head>
 	
 	<body>
@@ -43,31 +46,19 @@
 
 		<!--Content -->
 		
-	<form  name="LogInForm" method="post" action="" align="middle">
-			<table align="center" id="MainTable">
- 			<tr>
- 				<td> 						
- 						<fieldset>
- 						<legend>User Login <img src="Images/User-Files-icon.png"></img></legend>
- 						 <table>
-					    <tr>
-					      <td align="right">Username:</td>
-					      <td align="left"><input type="text" name="UserName" /></td>
-					    </tr>
-					    <tr>
-					      <td align="right">Password:</td>
-					      <td align="left"><input type="password" name="Password" /></td>
-					    </tr>
-					    <tr>
-					      <td align="left"><input type="Submit" value="LogIn" /></td>
-					    </tr>
-					  </table>
-					</fieldset>
-				</td>
- 			</tr>
- 		</table>
- 		
-		</form>
-	
-	</body>
-	</html>
+	<body>
+      <div id="login">
+      <form name='form-login'>
+        <span class="fontawesome-user"></span>
+          <input type="text" id="user" placeholder="Username"> 
+       
+        <span class="fontawesome-lock"></span>
+          <input type="password" id"pass" placeholder="Password">
+        
+        <input type="submit" value="Login">
+
+</form>
+  
+  
+</body>
+</html>
