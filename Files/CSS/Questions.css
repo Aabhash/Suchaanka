@@ -50,7 +50,7 @@ footer address
 		height: 900px;
 		float: left;
 		margin-top: 50px;
-		background-color: red;
+	background: linear-gradient(to bottom right, black, purple);
 }
 
 /*Side Navigation*/
@@ -95,9 +95,23 @@ footer address
 /*Question Section*/
 .CompDiv .QDiv
 { 
-	float: left;
-	height: 890px;
-	width: 80%;
-	background-color: blue;
+	margin-left: 17.5%; 
+  	margin-top: 100px;
+	height: 500px;
+	width: 75%;
+	background: linear-gradient(to bottom right, yellow, green);
+}
+
+@media (max-width:1190px)
+{
+	.CompDiv .SNav
+	{
+        display:none;
+	}
+	.CompDiv .QDiv
+	{
+		margin-left: 10%;
+		width: 80%;
+	}
 }
 
