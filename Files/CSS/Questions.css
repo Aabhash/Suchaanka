@@ -1,11 +1,12 @@
 /*BackGround CSS*/
-body {
-  margin: 0;
-  background: #000; 
+body 
+{
+  	margin: 0;
+  	background: #000; 
 }
 .VideoBack
 {
-  position: fixed;
+  	position: fixed;
 	min-width: 100%;
 	min-height: 100%;
 	left: 50%;
@@ -17,15 +18,14 @@ body {
 	-moz-transform: translateX(-50%) translateY(-50%);
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
-	background:url('Images/MovBack1.png') no-repeat;
+	background:url('Images/MovBack3.png') no-repeat;
 	background-size:cover;
 }
-
 @media screen and (max-width: 767px)
 {
 	html
 	{
-		background: url('../Images/MovBack1.png') center center/ cover no-repeat;
+		background: url('../Images/MovBack3.png') center center/ cover no-repeat;
 	}
 	.VideoBack
 	{
@@ -36,10 +36,8 @@ body {
 /*Main Body CSS*/
 .CompDiv
 {
-
-	font-family: Agenda-Light, Agenda;
 	width: 100%;
-	height: 900px;
+	height:1000px;
 	float: left;
 	margin-top: 50px;
 }
@@ -47,16 +45,18 @@ body {
 /*Side Navigation*/
 .CompDiv .SNav
 {
+	font-family: Agenda-Light, Agenda;
 	float: left;
-	height: inherit;
-	width: 10%;
+	height: 100%;
+	overflow: none;
+	width: 12%;
 	max-width: 100%; 
 	transition: all ease 0.5s;
 	background-color: white;
 }
 .CompDiv .SNav:hover
 {
-	width: 20%;
+	width: 18%;
 	transition: all ease 0.5s;
 }
 .CompDiv .SNav ul
@@ -87,25 +87,75 @@ body {
 }
 
 /*Question Section*/
-.CompDiv .QDiv
+.CompDiv .QIntroDiv, .CompDiv .QDiv
 { 
-	margin-top: 100px;
-	margin-left: 15%;
-	height: 600px;
-	width: 80%;
-	background-color: black;
+	margin-left: 18%;
+	width: 76%;
 }
-
 @media (max-width:1190px)
 {
 	.CompDiv .SNav
 	{
         display:none;
 	}
-	.CompDiv .QDiv
+	.CompDiv .QDiv, .CompDiv .QIntroDiv
 	{
 		margin-left: 0%;
 		width: 100%;
 	}
 }
 
+/*Question Intro Section*/
+.CompDiv .QIntroDiv
+{
+	text-align: center;
+	margin-top: 50px;
+	height: 25%;
+}
+.CompDiv .QIntroDiv table
+{
+	height: 75%;
+	width: 50%;
+	margin-left: 25%;
+	float: left;
+}
+.CompDiv .QIntroDiv table td
+{
+	width: 50%;
+}
+.CompDiv .QIntroDiv table #img1
+{	
+	height: 120px;
+	width: auto;
+	max-width: 100%;
+}
+.CompDiv .QIntroDiv table #img2
+{	
+	height: 128px;
+	width: auto;
+	max-width: 100%;
+}
+.CompDiv .QIntroDiv table td p
+{
+	text-align: center;
+	font-size: 12px;
+}
+
+/*Question Main Section*/
+.CompDiv .QDiv
+{ 
+	background-color: black;
+	height: 60%;
+}
+.CompDiv .QDiv .QDivMain
+{ 
+	height: 85%;
+	background-color: blue;
+}
+
+/*Question Footer Section*/
+.CompDiv .QDiv .QDivFooter
+{ 
+	height: 15%;
+	background-color: green;
+}
