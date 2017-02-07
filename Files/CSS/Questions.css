@@ -61,7 +61,6 @@
 /*Question Section*/
 .CompDiv .QIntroDiv, .CompDiv .QDiv
 { 
-	border: 10px solid black;
 	width: 88%;
 	margin-left: 12%;
 }
@@ -87,15 +86,14 @@
 }
 .CompDiv .QIntroDiv h1
 {
-  font-family: "Verdana";
-  font-size: 30px;
-  font-weight: 800;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 1px #202020;
+  	font-family: "Verdana";
+  	font-size: 30px;
+  	font-weight: 800;
+  	text-transform: uppercase;
+  	text-shadow: 1px 1px 1px #202020;
 }
 .CompDiv .QIntroDiv table
 {
-	border: 2px solid red;
 	height: 75%;
 	width: 50%;
 	margin-left: 25%;
@@ -103,7 +101,6 @@
 }
 .CompDiv .QIntroDiv table td
 {
-	border: 1px solid yellow; 
 	width: 50%;
 }
 .CompDiv .QIntroDiv table #img1
@@ -120,10 +117,10 @@
 }
 .CompDiv .QIntroDiv table td p
 {
-  font-family: "sans-serif";
+ 	font-family: "sans-serif";
 	text-align: center;
 	font-size: 12px;
-  font-weight: 600;
+  	font-weight: 600;
 }
 
 /*Question Main Section*/
@@ -134,65 +131,55 @@
 }
 .CompDiv .QDiv .QDivMain
 { 
-  text-align: center;
-  height: 80%;
-	background-color: blue;
+  	text-align: center;
+  	height: 80%;
 }
-.CompDiv .QDiv .QDivMain p
-{
-  text-shadow: 1px 1px 1px #101010;
-  color: white;
-  font-family: "serif";
-  font-size: 30px;
-  font-weight: 500;
-}
-
 .CompDiv .QDiv .QDivMain table
 {
-  margin-top: 3%;
-  height: 80%;
-  width: 80%;
-  border: 1px solid white;
-  position: relative;
-  left: 10%;
+  	margin-top: 5%;
+  	height: 80%;
+  	width: 80%;
+  	border: 1px solid white;
+  	position: relative;
+  	left: 10%;
 }
 
 .CompDiv .QDiv .QDivMain td
 {
-  border: 1px solid grey;
+  	border: 1px solid grey;
 }
 
 /*Question Footer Section*/
 .CompDiv .QDiv .QDivFooter
 { 
 	height: 20%;
-	background-color: green;
 }
 /* Button*/
 .CompDiv .QDiv .QDivFooter #button
 {
-  width: 100%;
-  height: 50%;
+  	width: 100%;
+  	height: 50%;
 }
 
 .CompDiv .QDiv .QDivFooter #button .btn
 {
-  background-color: #DC6950;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: "sans";
-  position: relative;
-  left: 43%;
+
+	margin-top: 2%;
+	background-color: #DC6950;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: "sans";
+	position: relative;
+	left: 45%;
 	height: 100%;
-	width: 15%;
+	width: 120px;
 	transition: all ease 0.5s;
 }
 .CompDiv .QDiv .QDivFooter #button .btn:hover
 {
 	background-color: #DC6940;
-	margin-top: -6px;
+	margin-top: 6px;
 	transition: all ease 0.5s;
+	box-shadow: 1px 1px 1px #202020;
 }
-
-/*Progress Bar*/
