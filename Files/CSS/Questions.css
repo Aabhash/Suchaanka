@@ -1,3 +1,35 @@
+html 
+{ 
+	overflow-y: 
+	scroll; 
+}
+
+/*Background CSS*/
+#Back, #Mid, #Front
+{
+	position: absolute;
+	height: inherit; 
+	width: inherit;
+}
+
+#Back 
+{
+	background: url(../Images/Background1.png) repeat 5% 5%;
+	z-index: 100;
+}
+
+#Mid 
+{
+	background: url(../Images/Background2.png) repeat 20% 20%;
+	z-index: 100;
+}
+
+#Front 
+{
+	background: url(../Images/Background3.png) repeat 90% 110%;
+	z-index: 200;
+}
+
 /*Main Body CSS*/
 .CompDiv
 {
@@ -5,17 +37,15 @@
 	height: 900px;
 	float: left;
 	margin-top: 50px;
-	background: linear-gradient(to bottom right, black, purple);
 }
 
 /*Side Navigation*/
 .CompDiv .SNav
 {
 	float: left;
-	height: 890px;
+	height: inherit;
 	width: 10%;
-	max-width: 100%;
-	background-color: white; 
+	max-width: 100%; 
 	transition: all ease 0.5s;
 }
 .CompDiv .SNav:hover
@@ -29,8 +59,8 @@
 	margin-top: 20px;
 	width: inherit;
 	text-align:center; 
-	font-family: "Courier New";
-	font-size: 26px;
+	font-family: "Georgia";
+	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 700;
 	text-shadow: 1px 1px 1px;
@@ -42,16 +72,23 @@
 	padding-top: 10px;
 }
 
-.CompDiv .SNav ul li:hover
+.CompDiv .SNav ul li:hover, .CompDiv .SNav ul li:active
 {
 	background-color: black;
 }
 
 /*Question Section*/
+.CompDiv .RestDiv
+{
+	margin-left: 10%;
+	width: 90%;
+	height: 830px;
+}
 .CompDiv .QDiv
 { 
-	margin-left: 17.5%; 
-  	margin-top: 100px;
+	position: relative;
+	z-index: 300;
+	margin-left: 17.5%;
 	height: 500px;
 	width: 75%;
 	background: linear-gradient(to bottom right, yellow, green);
@@ -63,10 +100,10 @@
 	{
         display:none;
 	}
-	.CompDiv .QDiv
+	.CompDiv .RestDiv
 	{
-		margin-left: 10%;
-		width: 80%;
+		margin-left: 0%;
+		width: 100%;
 	}
 }
 
