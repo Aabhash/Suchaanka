@@ -1,33 +1,32 @@
-html 
-{ 
-	overflow-y: 
-	scroll; 
+/*BackGround CSS*/
+.VideoBack
+{
+  position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	left: 50%;
+	top: 50%;
+	width: auto; 
+	height: auto; 
+	z-index: -1;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background:url('../Images/MovBack1.png' no-repeat;
+	background-size:cover;
 }
 
-/*Background CSS*/
-#Back, #Mid, #Front
+@media screen and (max-width: 767px)
 {
-	position: absolute;
-	height: inherit; 
-	width: inherit;
-}
-
-#Back 
-{
-	background: url(../Images/Background1.png) repeat 5% 5%;
-	z-index: 100;
-}
-
-#Mid 
-{
-	background: url(../Images/Background2.png) repeat 20% 20%;
-	z-index: 100;
-}
-
-#Front 
-{
-	background: url(../Images/Background3.png) repeat 90% 110%;
-	z-index: 200;
+	html
+	{
+		background: url('../Images/MovBack1.png') center center/ cover no-repeat;
+	}
+	.VideoBack
+	{
+		display: none;
+	}
 }
 
 /*Main Body CSS*/
@@ -78,20 +77,14 @@ html
 }
 
 /*Question Section*/
-.CompDiv .RestDiv
-{
-	margin-left: 10%;
-	width: 90%;
-	height: 830px;
-}
 .CompDiv .QDiv
 { 
-	position: relative;
-	z-index: 300;
+	margin-top: 100px;
 	margin-left: 17.5%;
 	height: 500px;
 	width: 75%;
 	background: linear-gradient(to bottom right, yellow, green);
+	z-index: 1;
 }
 
 @media (max-width:1190px)
