@@ -2,7 +2,7 @@
 .CompDiv
 {
 	width: 100%;
-	height:1000px;
+	height:1200px;
 	float: left;
 	margin-top: 50px;
 }
@@ -46,7 +46,14 @@
 	padding-top: 10px;
 }
 
-.CompDiv .SNav ul li:hover, .CompDiv .SNav ul li:active
+.CompDiv .SNav ul li img
+{
+	margin-bottom: 50px;
+	height: 128px;
+	width: auto;
+}
+
+.CompDiv .SNav ul .litext:hover, .CompDiv .SNav ul .litext:active
 {
 	background-color: black;
 }
@@ -78,6 +85,14 @@
 	text-align: center;
 	height: 30%;
 }
+.CompDiv .QIntroDiv h1
+{
+  font-family: "Verdana";
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #202020;
+}
 .CompDiv .QIntroDiv table
 {
 	border: 2px solid red;
@@ -105,25 +120,79 @@
 }
 .CompDiv .QIntroDiv table td p
 {
+  font-family: "sans-serif";
 	text-align: center;
 	font-size: 12px;
+  font-weight: 600;
 }
 
 /*Question Main Section*/
 .CompDiv .QDiv
 { 
 	background-color: black;
-	height: 60%;
+	height: 64.2%;
 }
 .CompDiv .QDiv .QDivMain
 { 
-	height: 85%;
+  text-align: center;
+  height: 80%;
 	background-color: blue;
+}
+.CompDiv .QDiv .QDivMain p
+{
+  text-shadow: 1px 1px 1px #101010;
+  color: white;
+  font-family: "serif";
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.CompDiv .QDiv .QDivMain table
+{
+  margin-top: 3%;
+  height: 80%;
+  width: 80%;
+  border: 1px solid white;
+  position: relative;
+  left: 10%;
+}
+
+.CompDiv .QDiv .QDivMain td
+{
+  border: 1px solid grey;
 }
 
 /*Question Footer Section*/
 .CompDiv .QDiv .QDivFooter
 { 
-	height: 15%;
+	height: 20%;
 	background-color: green;
 }
+/* Button*/
+.CompDiv .QDiv .QDivFooter #button
+{
+  width: 100%;
+  height: 50%;
+}
+
+.CompDiv .QDiv .QDivFooter #button .btn
+{
+  background-color: #DC6950;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "sans";
+  position: relative;
+  left: 43%;
+	height: 100%;
+	width: 15%;
+	transition: all ease 0.5s;
+}
+.CompDiv .QDiv .QDivFooter #button .btn:hover
+{
+	background-color: #DC6940;
+	margin-top: -6px;
+	transition: all ease 0.5s;
+}
+
+/*Progress Bar*/
