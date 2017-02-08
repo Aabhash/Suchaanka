@@ -26,7 +26,7 @@ nav li:hover
 /*Footer CSS*/
 footer 
 {
-	margin-top: 8%;
+	top: 95%;
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -34,7 +34,7 @@ footer
 	height: 70px;
 	color: rgb(100,100,0);
 	box-shadow: 5px 5px 10px #202020;
-    	background-color: #233140;
+    background-color: #233140;
 }
 footer address
 {
