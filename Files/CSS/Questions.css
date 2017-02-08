@@ -1,15 +1,13 @@
 /*Main Body CSS*/
-.CompDiv
-{
+.CompDiv{
 	width: 100%;
-	height:1200px;
+	height:1500px;
 	float: left;
 	margin-top: 50px;
 }
 
 /*Side Navigation*/
-.CompDiv .SNav
-{
+.CompDiv .SNav{
 	font-family: Agenda-Light, Agenda;
 	float: left;
 	height: 100%;
@@ -19,13 +17,11 @@
 	transition: all ease 0.5s;
 	background-color: white;
 }
-.CompDiv .SNav:hover
-{
+.CompDiv .SNav:hover{
 	width: 18%;
 	transition: all ease 0.5s;
 }
-.CompDiv .SNav ul
-{
+.CompDiv .SNav ul{
 	margin-top: 30px;
 	width: inherit;
 	text-align: center; 
@@ -35,37 +31,31 @@
 	text-shadow: 1px 1px 1px;
 }
 
-.CompDiv .SNav hr
-{
+.CompDiv .SNav hr{
 	width: 80%; 
 }
 
-.CompDiv .SNav ul li
-{
+.CompDiv .SNav ul li{
 	margin-top: 10px;
 	padding-top: 10px;
 }
 
-.CompDiv .SNav ul li img
-{
+.CompDiv .SNav ul li img{
 	margin-bottom: 50px;
 	height: 128px;
 	width: auto;
 }
 
-.CompDiv .SNav ul .litext:hover, .CompDiv .SNav ul .litext:active
-{
+.CompDiv .SNav ul .litext:hover, .CompDiv .SNav ul .litext:active{
 	background-color: black;
 }
 
 /*Question Section*/
-.CompDiv .QIntroDiv, .CompDiv .QDiv
-{ 
+.CompDiv .QIntroDiv, .CompDiv .QDiv{ 
 	width: 88%;
 	margin-left: 12%;
 }
-@media (max-width:1190px)
-{
+@media (max-width:1190px){
 	.CompDiv .SNav
 	{
         display:none;
@@ -78,108 +68,40 @@
 }
 
 /*Question Intro Section*/
-.CompDiv .QIntroDiv
-{
+.CompDiv .QIntroDiv{
 	background-color: white;
 	text-align: center;
-	height: 30%;
+	height: 25%;
 }
-.CompDiv .QIntroDiv h1
-{
+.CompDiv .QIntroDiv h1{
   	font-family: "Verdana";
   	font-size: 30px;
   	font-weight: 800;
   	text-transform: uppercase;
   	text-shadow: 1px 1px 1px #202020;
 }
-.CompDiv .QIntroDiv table
-{
+.CompDiv .QIntroDiv table{
 	height: 75%;
 	width: 50%;
 	margin-left: 25%;
 	float: left;
 }
-.CompDiv .QIntroDiv table td
-{
+.CompDiv .QIntroDiv table td{
 	width: 50%;
 }
-.CompDiv .QIntroDiv table #img1
-{	
+.CompDiv .QIntroDiv table #img1{	
 	height: 120px;
 	width: auto;
 	max-width: 100%;
 }
-.CompDiv .QIntroDiv table #img2
-{	
+.CompDiv .QIntroDiv table #img2{	
 	height: 128px;
 	width: auto;
 	max-width: 100%;
 }
-.CompDiv .QIntroDiv table td p
-{
+.CompDiv .QIntroDiv table td p{
  	font-family: "sans-serif";
 	text-align: center;
 	font-size: 12px;
   	font-weight: 600;
-}
-
-/*Question Main Section*/
-.CompDiv .QDiv
-{ 
-	background-color: black;
-	height: 64.2%;
-}
-.CompDiv .QDiv .QDivMain
-{ 
-  	text-align: center;
-  	height: 80%;
-}
-.CompDiv .QDiv .QDivMain table
-{
-  	margin-top: 5%;
-  	height: 80%;
-  	width: 80%;
-  	border: 1px solid white;
-  	position: relative;
-  	left: 10%;
-}
-
-.CompDiv .QDiv .QDivMain td
-{
-  	border: 1px solid grey;
-}
-
-/*Question Footer Section*/
-.CompDiv .QDiv .QDivFooter
-{ 
-	height: 20%;
-}
-/* Button*/
-.CompDiv .QDiv .QDivFooter #button
-{
-  	width: 100%;
-  	height: 50%;
-}
-
-.CompDiv .QDiv .QDivFooter #button .btn
-{
-
-	margin-top: 2%;
-	background-color: #DC6950;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-family: "sans";
-	position: relative;
-	left: 45%;
-	height: 100%;
-	width: 120px;
-	transition: all ease 0.5s;
-}
-.CompDiv .QDiv .QDivFooter #button .btn:hover
-{
-	background-color: #DC6940;
-	margin-top: 6px;
-	transition: all ease 0.5s;
-	box-shadow: 1px 1px 1px #202020;
 }

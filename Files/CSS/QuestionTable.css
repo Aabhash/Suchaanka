@@ -1,0 +1,85 @@
+﻿/*Question Main Section*/
+.CompDiv .QDiv{ 
+	background-color: black;
+	height: 70%;
+}
+.CompDiv .QDiv .QDivMain{ 
+  	text-align: center;
+  	height: 85%;
+}
+.CompDiv .QDiv .QDivMain .divtable table{
+  	margin-top: 10%;
+  	height: 80%;
+  	width: 80%;
+  	border: 1px solid white;
+  	position: relative;
+  	left: 10%;
+}
+.CompDiv .QDiv .QDivMain .divtable table td{
+  	border: 1px solid grey;
+  	height: 20%;
+}
+
+/*Question Footer Section*/
+.CompDiv .QDiv .QDivFooter{ 
+	height: 15%;
+}
+
+/* Button*/
+.CompDiv .QDiv .QDivFooter #button{
+  	width: 100%;
+  	height: 50%;
+}
+.CompDiv .QDiv .QDivFooter #button .btn{
+	margin-top: 2%;
+	background-color: #DC6950;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: "sans";
+	position: relative;
+	left: 45%;
+	height: 100%;
+	width: 120px;
+	transition: all ease 0.5s;
+	overflow: hidden;
+}
+.CompDiv .QDiv .QDivFooter #button .btn:hover{
+	background-color: #DC6940;
+	margin-top: 6px;
+	transition: all ease 0.5s;
+	box-shadow: 1px 1px 1px #202020;
+}
+
+/*Progress Bar*/
+.progress #pr{
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	font-weight 700;
+}
+
+/* Table */
+#QuestionSet1{
+	display: inline;
+}
+#QuestionSet2{
+	display: none;
+}
+
+.divtable .Question{
+	font-family: "Courier New";
+	font-size: 18px;
+}
+
+.SelForm{
+	overflow: hidden;
+	text-align: center;
+}
+.SelForm .radio1{
+	margin-left: 15px;
+}
+.SelForm .radio7{
+	margin-right: 15px;
+}
+
