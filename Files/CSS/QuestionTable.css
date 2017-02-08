@@ -38,9 +38,9 @@
 	font-weight: 700;
 	font-family: "sans";
 	position: relative;
-	left: 45%;
+	left: 43%;
 	height: 100%;
-	width: 120px;
+	width: 140px;
 	transition: all ease 0.5s;
 	overflow: hidden;
 }

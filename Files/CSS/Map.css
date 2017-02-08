@@ -1,1 +1,7 @@
 /*Main Body CSS*/
+section
+{
+	position: float;	
+	height: 900px;
+	width: 100%;;
+}
