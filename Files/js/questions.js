@@ -1,3 +1,16 @@
+function clearradio()
+{
+	var all = document.getElementsByTagName("input");
+	for( var i = 0; i<all.length; i++)
+	{
+		all[i].checked = false;
+	}
+}
+
+function validate()
+{
+	
+}
 function changeTable()
 {
 	var newTable = document.getElementById('QuestionSet2');
@@ -27,3 +40,4 @@ function changeTable()
 	}
 
 }
+
