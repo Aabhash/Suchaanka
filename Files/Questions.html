@@ -15,9 +15,6 @@
 
 	</head>
 	<body>
-		<video playsinline autoplay muted loop poster ="Images/MovBack1.png" class="VideoBack">
-			<source src="Images/MovBack.mp4" type="video/mp4">
-		</video>
 		
 		<!-- Nav Bar Bootstrap-->
 		<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -49,14 +46,64 @@
 		<div class="CompDiv">
 			<div class="SNav">
 				<ul class ="nav nav-pills nav-stacked" data-spy="affix">
-					<a href="Questions.html"><li> Compass </li></a>
+
+					<li> <img src ="Images/CompassPageImages/SideNav1.png"></li>
+					<a href="Questions.html"><li class="litext"> Compass </li></a>
 					<hr>
-					<a href="Issues.html"><li> Issues </li></a>
+					<a href="Issues.html"><li class="litext"> Issues </li></a>
 					<hr>
-					<a href="Map.html"><li> Map </li></a>
+					<a href="Map.html"><li class="litext"> Map </li></a>
 				</ul> 
 			</div>
-			<div class="QDiv"></div>
+			<div class="QIntroDiv">
+				<h1>Test</h1>
+				<table>
+					<tr>
+						<td><img id="img1" src="Images/CompassPageImages/CPage1.png"></td>
+						<td><img id="img2" src="Images/CompassPageImages/CPage2.png"></td>
+					</tr>
+					<tr>
+						<td><p>Takes about 10 minutes</p></td>
+						<td><p>Please answer as truthfully as you can</p></td>
+					</tr>
+				</table>
+			</div>
+			<div class="QDiv">
+				<div class="QDivMain">
+
+					<div class ="progress">
+						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+							0% Complete
+						</div>
+					</div>
+
+					<table>
+						<tr>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+				<div class="QDivFooter">
+					<div id="button">
+						<button id="nextbut" class="btn btn-action btn-lg" type="button">
+							<span>NEXT </span>
+							<span class="fa fa-caret-right"></span>
+						</button>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<!-- Footer of Page -->
