@@ -183,3 +183,8 @@
 	transition: all ease 0.5s;
 	box-shadow: 1px 1px 1px #202020;
 }
+
+.QuestionSet2
+{
+	display:none;
+}
