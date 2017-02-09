@@ -27,19 +27,19 @@ function validate(){
 					return false;
 				}
 				else if(atpos < 0 || dotpos<0){
-					alert('Email should contain @ and . sign');
+					alert('Email is not valid! Email should contain @ and . sign');
 					return false;
 				}
 				else if(dotpos==0 || atpos ==0 || firstdot==0){
-					alert('Email should not contain @ or dot at begining');
+					alert('Email is not valid! Email should not contain @ or dot at begining');
 					return false;
 				}
 				else if(dotpos - atpos <3){
-					alert('There should be atleast two characters between @ and dot sign');
+					alert('Email is not valid! There should be atleast two characters between @ and dot sign');
 					return false;
 				}
 				else if(email.length - dotpos < 3){
-					alert('Atleast two characters required after last dot');
+					alert('Email is not valid! Atleast two characters required after last dot');
 					return false;
 				}				
 				
