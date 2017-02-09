@@ -1,148 +1,147 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title> ISSUES </title>
+<head>
+    <meta charset="UTF-8">
+    <title> Suchaanka - Issues </title>
+    <!--- Local links -->
+    <link rel="stylesheet" type="text/css" href="CSS/Issues.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Common.css">
+
+    <!-- BootStrap Links-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="BootstrapFiles/jquery.min.js"></script>
+    <script src="BootstrapFiles/bootstrap.min.js"></script>
+
+    <!--External Links for carousel-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 70%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Nav Bar Bootstrap-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="HomePage.html">SUCHAANKA</a>
+                <div style="border-right:3px solid #fff;height:25px"></div>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="HomePage.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="Questions.html"><span class="glyphicon glyphicon-play-circle"></span> Take Test</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
-		<!--- Local links -->
-		<link rel="stylesheet" type="text/css" href="CSS/Issues.css">
-		<link rel="stylesheet" type="text/css" href="CSS/Common.css">
+    <!-- Body Of Page -->
 
-		<!-- BootStrap Links-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  		<script src="BootstrapFiles/jquery.min.js"></script>
-  		<script src="BootstrapFiles/bootstrap.min.js"></script>
+    <div class="container">
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
 
-  		<!--External Links for carousel-->
-  		<meta name="viewport" content="width=device-width, initial-scale=1">
-		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		  <style>
-		  .carousel-inner > .item > img,
-		  .carousel-inner > .item > a > img {
-		       width: 70%;
-		      margin: auto;
-		  }
-		  </style>
-	</head>
-	<body>
-		<!-- Nav Bar Bootstrap-->
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-		  <div class="container-fluid">
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>                        
-		      </button>
-		      <a class="navbar-brand" href="HomePage.html">SUCHAANKA</a>
-		      <div style="border-right:3px solid #fff;height:25px"></div>
-		    </div>
-		    <div class="collapse navbar-collapse" id="myNavbar">
-		      <ul class="nav navbar-nav">
-		        <li><a href="HomePage.html">Home</a></li>
-		        <li><a href="About.html">About</a></li>
-		        <li><a href="Contact.html">Contact</a></li>
-		      </ul>
-		      <ul class="nav navbar-nav navbar-right">
-		         <li><a href="Questions.html"><span class="glyphicon glyphicon-play-circle"></span> Take Test</a></li>
-		      </ul>
-		    </div>
-		  </div>
-		</nav>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
 
-	
-		<!-- Body Of Page -->
+                <div class="item active">
+                    <img src="Images\I4.jpg" alt="Air Pollution" width="460" height="345">
+                    <div class="carousel-caption">
+                        <h3>Poisonous Air</h3>
+                        <p>The atmosphere in the capital city is most deteriorated.</p>
+                    </div>
+                </div>
 
-		<div class="container">
-		  <br>
-		  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-		    <!-- Indicators -->
-		    <ol class="carousel-indicators">
-		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		      <li data-target="#myCarousel" data-slide-to="1"></li>
-		      <li data-target="#myCarousel" data-slide-to="2"></li>
-		     </ol>
+                <div class="item">
+                    <img src="Images\I2.png" alt="Child Labour" width="460" height="345">
+                    <div class="carousel-caption">
+                        <h3>Stolen Childhood</h3>
+                        <p>The children are forced to do labour in order to feed themselves daily.</p>
+                    </div>
+                </div>
 
-		    <!-- Wrapper for slides -->
-		    <div class="carousel-inner" role="listbox">
+                <div class="item">
+                    <img src="Images\I3.png" alt="Drinking Water" width="460" height="345">
+                    <div class="carousel-caption">
+                        <h3>Degraded hygiene</h3>
+                        <p>The country doesn't have safe drinking water almost everywhere.</p>
+                    </div>
+                </div>
 
-		      <div class="item active">
-			<img src="Images\I4.jpg" alt="Air Pollution" width="460" height="345">
-			<div class="carousel-caption">
-			  <h3>Poisonous Air</h3>
-			  <p>The atmosphere in the capital city is most deteriorated.</p>
-			</div>
-		      </div>
 
-		      <div class="item">
-			<img src="Images\I2.png" alt="Child Labour" width="460" height="345">
-			<div class="carousel-caption">
-			  <h3>Stolen Childhood</h3>
-			  <p>The children are forced to do labour in order to feed themselves daily.</p>
-			</div>
-		      </div>
-		    
-		      <div class="item">
-			<img src="Images\I3.png" alt="Drinking Water" width="460" height="345">
-			<div class="carousel-caption">
-			  <h3>Degraded hygiene</h3>
-			  <p>The country doesn't have safe drinking water almost everywhere.</p>
-			</div>
-		      </div>
+            </div>
 
-		   
-		    </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div id="expl">
+            <table>
+                <tr>
+                    <td>
+                        <div id="Issue1">
+                            <h4 class="h4head">AIR POLLUTION</h4>
+                            <p>
+                                Nepal continues to rank among the worst four performers in protecting the human health and environment due to degrading air quality.
+                                The latest Environment Performance Index (EPI) 2016 released this week at the World Economic Forum puts Nepal 177 among 180 countries in terms of air quality. India, China and Bangladesh are the only countries performing worse than Nepal in an effort to improve the dramatic decline in air quality—a leading cause of death worldwide—accounting for 5.5 million deaths in 2013.
+                                It has ranked Nepal 149 among 180 countries, in overall performance.
 
-		    <!-- Left and right controls -->
-		    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-		      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		      <span class="sr-only">Previous</span>
-		    </a>
-		    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-		      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		      <span class="sr-only">Next</span>
-		    </a>
-		  </div>
-		  <div id="expl">
-		  	<table>
-		  		<tr>
-		  			<td>
-		  	<div id="Issue1">
-		  		<h4>AIR POLLUTION</h4>
-		  		<p>Nepal continues to rank among the worst four performers in protecting the human health and environment due to degrading air quality.
-				The latest Environment Performance Index (EPI) 2016 released this week at the World Economic Forum puts Nepal 177 among 180 countries in terms of air quality. India, China and Bangladesh are the only countries performing worse than Nepal in an effort to improve the dramatic decline in air quality—a leading cause of death worldwide—accounting for 5.5 million deaths in 2013.
-				It has ranked Nepal 149 among 180 countries, in overall performance.
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="Issue2">
+                            <h4 class="h4head">CHILD LABOUR </h4>
+                            <p>Though child labor is illegal in Nepal, an estimated 1.6 million children between the ages of five and 17 years are in the work force, according to the National Child Labor Report. About three-quarters of them are under the age of 14, and most are girls. Child workers are a frequent sight on Kathmandu's streets, whether cleaning dishes in local restaurants or making a living as conductors on the city's public transport. Many are employed in the carpet, brick and garment industries, or in private homes as domestic workers. </p>
+                        </div>
+        </div>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="Issue3">
+                    <h4 class="h4head">WATER SUPPLY </h4>
+                    <p>According to the Department of Water Supply and Sewerage in Nepal, even though an estimated 80% of the total population has access to drinking water, it is not safe. Those belonging to poor and excluded groups in rural areas have limited to no access. Many in remote areas have to rely on small brooks running from the mountains and spend hours traveling to get water. Still the drinking water available is not always safe as supplied water is often polluted. One of the reasons for this is due to the fact that the surface and ground water in the Kathmandu Valley is deteriorating by natural and anthropogenic contaminations. The surface water is polluted by industry and domestic waste along with discharge of untreated sewage from tightly packed residential neighborhoods.</p>
+                </div>
+    </div>
+    </td>
+    </tr>
+    </table>
 
-			</p>
-		</div>
-	</td>
-</tr>
-<tr>
-	<td>
-		<div id="Issue2">
-			<h4>CHILD LABOUR </h4>
-			<p>Though child labor is illegal in Nepal, an estimated 1.6 million children between the ages of five and 17 years are in the work force, according to the National Child Labor Report. About three-quarters of them are under the age of 14, and most are girls. Child workers are a frequent sight on Kathmandu's streets, whether cleaning dishes in local restaurants or making a living as conductors on the city's public transport. Many are employed in the carpet, brick and garment industries, or in private homes as domestic workers. </p>
-		</div>
-		  </div>
-		</td>
-	</tr>
-	<tr>
-	<td>
-		<div id="Issue2">
-			<h4>WATER SUPPLY </h4>
-			<p>According to the Department of Water Supply and Sewerage in Nepal, even though an estimated 80% of the total population has access to drinking water, it is not safe. Those belonging to poor and excluded groups in rural areas have limited to no access. Many in remote areas have to rely on small brooks running from the mountains and spend hours traveling to get water. Still the drinking water available is not always safe as supplied water is often polluted. One of the reasons for this is due to the fact that the surface and ground water in the Kathmandu Valley is deteriorating by natural and anthropogenic contaminations. The surface water is polluted by industry and domestic waste along with discharge of untreated sewage from tightly packed residential neighborhoods.</p>
-		</div>
-		  </div>
-		</td>
-	</tr>
-</table>
+    <!-- Footer of Page -->
+    <footer>
+        <address> &copy; Copyright 2017, Made under MIT liscense www.ad_flint@hotmail.com <br> 6th Semester Web Technology Project</address>
+    </footer>
 
-		<!-- Footer of Page -->
-		<footer>
-			<address> &copy; Copyright 2017, Made under MIT liscense www.ad_flint@hotmail.com <br> 6th Semester Web Technology Project</address> 
-		</footer>
-
-	</body>
+</body>
 </html>

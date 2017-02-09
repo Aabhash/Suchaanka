@@ -10,11 +10,13 @@ function validate(){
 				var firstdot = email.indexOf('.');
 				var atpos = email.indexOf('@');
 				if(firstname == '' ){
-					alert("First Name should not be empty");
+				    alert("First Name should not be empty");
 					return false;
 				}
 				else if(lastname ==''){
-					alert("Last Name should not be empty");
+				    var x = document.getElementById('ln');
+				    x.innerText = ("Error");
+				    x.style.backgroundColor = ("red");
 					return false;
 				}
 				else if(sub ==''){

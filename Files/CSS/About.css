@@ -8,19 +8,36 @@
 	margin-top: 50px;
 	margin-bottom:50px; 
 	padding-bottom:40px; 
-	font-size:80px; 
+	font-size:40px;
+    text-shadow: 5px 5px 5px #202020; 
 	text-align:center; 
 	text-transform:uppercase; 
 	border-bottom:1px solid #CCCCCC;
 } 
+.Text
+{
+    font-family: 'Franklin Gothic Book';
+}
+table
+{
+    width: 70%;
+    margin-left: 12%;
+}
+.tablestyle
+{
+    padding: 20px;
+    margin-left: 30px;
+    border-radius: 10px 0px;
+    width: 50%;
+    background-color: #4c9070;
 
+}
 #about-us img{
 	width:446px;
 	height:239px;
 }
 #about-us #about-intro{
 	margin-bottom:50px;
-
 }
 #about-us #about-intro p{
 	margin:2%;
@@ -34,64 +51,6 @@
 	margin-left: 120%;
 	margin-right:120%
 }
-#about-us #team{
-	margin-bottom:0;
-}
-#about-us #team ul{
-	margin:0; 
-	padding:0; 
-	list-style:none;
-}
-#about-us #team ul li{
-	margin-bottom:10px;
-}
-#about-us #team ul li figure{
-	position:relative; 
-	text-align:center;
-}
-#about-us #team ul li figure img{
-	padding:9px; 
-	border:1px solid #CCCCCC;
-	height: 180px;
-	width: 180px;
-}
-#about-us #team ul li figure figcaption{
-	display:none; 
-	position:absolute; 
-	top:10px; 
-	left:10px; 
-	width:180px; 
-	height:180px; 
-	overflow:hidden; 
-	color:#FFFFFF; 
-	background-color:#000000; 
-	background:hsla(0, 0%, 0%, 0.8);
-}
-#about-us #team ul li:hover figure figcaption{
-	display:block;
-
-}
-#about-us #team ul li figure figcaption p{
-	margin:15px 15px 0 15px; 
-	padding:0;
-
-}
-#about-us #team ul li figure figcaption p:first-child{
-	margin-top:35px;
-}
-#about-us #team ul li figure figcaption .team_name{
-	font-weight:bold;
-}
-#about-us #team ul li figure figcaption .team_title{
-	margin:0; 
-	font-size:11px; 
-	line-height:normal;
-}
-#about-us #team ul li figure figcaption .team_description{
-	text-align:left;
-}
-
- 
 .one_third, 
 {
 	display:inline-block; 
