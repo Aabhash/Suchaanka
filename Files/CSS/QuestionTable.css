@@ -11,17 +11,14 @@
   	margin-top: 10%;
   	height: 80%;
   	width: 80%;
-  	border: 1px solid white;
   	position: relative;
   	left: 10%;
   	background-color: white;
-  	border-radius: 20px;
-
+  	box-shadow: 1px 1px 1px grey;
 }
 .CompDiv .QDiv .QDivMain .divtable table td{
   	height: 20%;
 	border-bottom: 1px dotted grey;
-		
 }
 
 /*Question Footer Section*/
@@ -35,7 +32,7 @@
   	height: 50%;
 }
 .CompDiv .QDiv .QDivFooter #button .btn{
-	margin-top: 2%;
+	margin-top: 0%;
 	background-color: #DC6950;
 	color: #fff;
 	text-transform: uppercase;
@@ -50,7 +47,7 @@
 }
 .CompDiv .QDiv .QDivFooter #button .btn:hover{
 	background-color: #DC6940;
-	margin-top: 6px;
+	margin-top: -10px;
 	transition: all ease 0.5s;
 	box-shadow: 1px 1px 1px #202020;
 }
