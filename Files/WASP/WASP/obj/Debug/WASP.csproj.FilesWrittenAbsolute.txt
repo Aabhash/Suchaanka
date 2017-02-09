@@ -1,0 +1,5 @@
+/home/aabhash2/Documents/Projects/WASP/WASP/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/aabhash2/Documents/Projects/WASP/WASP/bin/WASP.dll.mdb
+/home/aabhash2/Documents/Projects/WASP/WASP/bin/WASP.dll
+/home/aabhash2/Documents/Projects/WASP/WASP/obj/Debug/WASP.dll
+/home/aabhash2/Documents/Projects/WASP/WASP/obj/Debug/WASP.dll.mdb

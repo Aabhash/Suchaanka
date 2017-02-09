@@ -51,7 +51,7 @@ function load()
 	rdisable();
 	var a = Math.floor(arr[0] * 1.5 / 10);
 	var b = Math.floor(arr[1] * 1.5 / 10);
-	window.open("http://localhost:57390/Results.aspx?score=" + a + b, "_self");
+	window.open("http://127.0.0.1:8080/Results.aspx?score=" + a + b, "_self");
 }
 
 //Calculate Score
