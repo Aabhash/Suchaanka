@@ -24,14 +24,7 @@
 }
 #about-us #about-intro p{
 	margin:2%;
-	border-radius: 15px 5px;
-	background-color: #F0FFFF;
-	box-shadow: 10px 10px gray;
 	text-align: center;
-	border: 2px solid #266388;
-	padding: 20px;
-	
-
 }
 #about-us #about-intro p:first-child{
 	margin-top:0;
