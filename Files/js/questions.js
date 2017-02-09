@@ -44,9 +44,10 @@ function load()
 {
 	var e = 0, s = 0;
 	var arr = [e,s];
-	arr = score(e,s);
+	arr = score(e, s);
 	rdisable();
-	alert("Load");
+	loadJSONData(arr);
+	window.open("WT_ASP/WT_ASP/Results.aspx", "_self");
 }
 
 function score(escore,sscore)
@@ -114,4 +115,28 @@ function renable()
 	{
 		a[x].disabled = false;
 	}
+}
+
+function loadJSONData(a)
+{
+    var postdata = JSON.stringify(a);
+    try{
+        $.ajax({
+            type: "POST",
+            url: "WT_ASP/WT_ASP/Results.aspx",
+            dataType: "json",
+            data: postdata,
+            success: getSuccess,
+            error: getFail
+        });
+    }
+    catch (e) {
+        alert(e);
+    }
+    function getSuccess(data, textStatus, jqXHR) {
+        alert(data.Response);
+    };
+    function getFail(jeXHR, textStatus, errorThrown) {
+        alert(jqXHR.status);
+    };
 }
