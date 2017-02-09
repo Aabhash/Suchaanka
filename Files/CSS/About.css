@@ -24,7 +24,7 @@
 }
 #about-us #about-intro p{
 	margin:2%;
-	text-align: center;
+	text-align: justify;
 }
 #about-us #about-intro p:first-child{
 	margin-top:0;

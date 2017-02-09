@@ -14,4 +14,29 @@ header.carousel .fill {
     background-position: center;
     background-size: cover;
 }
+p{
+	text-align: justify;
+}
+table{
+	margin:10px;
+}
+/*Footer CSS*/
+footer 
+{
+    margin-top: 15%;
+    float: left;
+      bottom: 0;
+    width: 100%;
+    height: 70px;
+    color: rgb(100,100,0);
+    box-shadow: 5px 5px 10px #202020;
+      background-color: #233140;
+}
 
+footer address
+{
+    text-align:center;
+    font-size: 12px;
+    color: #efefef;
+    padding: 1% 0;
+}
