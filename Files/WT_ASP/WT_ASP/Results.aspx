@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>SUCHAANKA: Results</title>
+    <title>Suchaanka: Results</title>
     <link rel="stylesheet" type="text/css" href="Results.css" />
 </head>
 <body>
