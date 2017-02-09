@@ -20,15 +20,17 @@
     margin-left: 40px;
 }
 
-img
+#ImageDiv
 {
+    border: 1px solid black;
     position: relative;
-    left: 0px;
-    top: 0px;
     min-width: 1em;
+    height: 24px;
+    width: 24px;
+    background-image: url('Cross.png');
 }
 
-#Image
+#ImageBorder
 {
     position: relative;
     left: 11%;
