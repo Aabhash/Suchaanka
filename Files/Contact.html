@@ -7,6 +7,7 @@
 		<!--- Local links -->
 		<link rel="stylesheet" type="text/css" href="CSS/Contact.css">
 		<link rel="stylesheet" type="text/css" href="CSS/Common.css">
+		<script src="js/Contact.js"></script>
 
 		<!--External link-->
   		 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
@@ -15,6 +16,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   		<script src="BootstrapFiles/jquery.min.js"></script>
   		<script src="BootstrapFiles/bootstrap.min.js"></script>
+
 	</head>
 
 	<body>
@@ -31,8 +33,7 @@
 		        <li class="active"><a href="Contact.html">Contact</a></li>
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
-		        <li><a href="SignUp.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-		        <li><a href="LogIn.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		         <li><a href="Questions.html"><span class="glyphicon glyphicon-play-circle"></span> Take Test</a></li>
 		      </ul>
 		  	</div>
 		  	</div>
@@ -44,7 +45,7 @@
 				<table>
 		<tr>
 			<td>
-			<form name="ContactInfoForm" method="post" action="">
+			<form name ='f1' id="CInfoForm" method="post" action="">
 			
 			<table align="center">
 			<tr>
@@ -56,25 +57,25 @@
 					    <tr>
 					      <td>
 					       		<span class="fontawesome-book"></span>					       		
-					          	<input type="text" id="fname" placeholder="First Name"> 
+					          	<input type="text" name="fname" placeholder="First Name"> 
 					      </td> 
 					    </tr>
 					     <tr>
 					      <td>
 					       		<span class="fontawesome-book"></span>					       		
-					          	<input type="text" id="lname" placeholder="Last Name"> 
+					          	<input type="text" name="lname" placeholder="Last Name"> 
 					      </td> 
 					    </tr>
 					      <tr>
 					      <td>
 					       		<span class="fontawesome-file"></span>					       		
-					          	<input type="text" id="subject" placeholder="Subject"> 
+					          	<input type="text" name="subject" placeholder="Subject"> 
 					      </td>
 					    </tr>
 					    <tr>
 					      <td>
 					       		<span class="fontawesome-envelope"></span>					       		
-					          	<input type="text" id="email" placeholder="Email"> 
+					          	<input type="text" name="email" placeholder="Email"> 
 					      </td>
 					    </tr>
 					    <tr>
@@ -84,7 +85,7 @@
 					    	</td>
 					    </tr>
 					     <tr>
-					        <td><input type="submit" value="Submit" /></td>
+					        <td><input type="submit" value="Submit" onClick="validate()"/></td>
 					    </tr>
 					  </table>
 					</fieldset>

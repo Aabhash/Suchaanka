@@ -30,7 +30,10 @@ legend{
 p {
   line-height: 1.5em;
 }
+img{
 
+  width: 100%;
+}
 after { clear: both; }
 
 #CInfo {
