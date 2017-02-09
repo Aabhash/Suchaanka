@@ -1,0 +1,41 @@
+﻿body {
+    border: 10px solid black;
+    border-radius: 10px;
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+}
+#Main {
+    background-image: url('Compass.png');
+    height: 88%;
+    width: 81%;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 4%;
+    top: 37px;
+    margin-left: 40px;
+}
+
+#ImageDiv
+{
+    border: 1px solid black;
+    position: relative;
+    min-width: 1em;
+    height: 24px;
+    width: 24px;
+    background-image: url('Cross.png');
+}
+
+#ImageBorder
+{
+    position: relative;
+    left: 11%;
+    top: 13%;
+    height: 65%;
+    width: 70%;
+    border: 1px solid black;
+}

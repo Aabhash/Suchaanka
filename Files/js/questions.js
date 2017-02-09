@@ -44,10 +44,13 @@ function load()
 {
 	var e = 0, s = 0;
 	var arr = [e,s];
-	arr = score(e,s);
+	arr = score(e, s);
 	rdisable();
-	alert("Load");
+	var a = (arr[0] * 2.4 / 10);
+    var b = (arr[1] * 2.4 / 10)
+	window.open("http://localhost:57390/Results.aspx?score="+a+b, "_self");
 }
+
 
 function score(escore,sscore)
 {
