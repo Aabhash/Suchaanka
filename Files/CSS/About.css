@@ -1,5 +1,4 @@
 
-
 #about-us{
 	display:block; 
 	width:100%; 
@@ -14,11 +13,10 @@
 	text-transform:uppercase; 
 	border-bottom:1px solid #CCCCCC;
 } 
-#about-intro img{
-	width: 50%;
-	margin-left: 25%;
-	margin-right:25%
 
+#about-us img{
+	width:446px;
+	height:239px;
 }
 #about-us #about-intro{
 	margin-bottom:50px;
@@ -27,12 +25,12 @@
 #about-us #about-intro p{
 	margin:2%;
 	border-radius: 15px 5px;
-	background-color: #266090;
+	background-color: #F0FFFF;
 	box-shadow: 10px 10px gray;
 	text-align: center;
 	border: 2px solid #266388;
-	padding: 10px;
-	color:#FFFFFF;
+	padding: 20px;
+	
 
 }
 #about-us #about-intro p:first-child{
@@ -52,7 +50,7 @@
 	list-style:none;
 }
 #about-us #team ul li{
-	margin-bottom:30px;
+	margin-bottom:10px;
 }
 #about-us #team ul li figure{
 	position:relative; 
@@ -61,16 +59,16 @@
 #about-us #team ul li figure img{
 	padding:9px; 
 	border:1px solid #CCCCCC;
-	height: 250px;
-	width: 250px;
+	height: 180px;
+	width: 180px;
 }
 #about-us #team ul li figure figcaption{
 	display:none; 
 	position:absolute; 
 	top:10px; 
 	left:10px; 
-	width:250px; 
-	height:250px; 
+	width:180px; 
+	height:180px; 
 	overflow:hidden; 
 	color:#FFFFFF; 
 	background-color:#000000; 
