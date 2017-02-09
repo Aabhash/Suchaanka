@@ -2,17 +2,21 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title> Suchaanka - Politico Map </title>
+		<title> Contact Us </title>
 
 		<!--- Local links -->
-		<link rel="stylesheet" type="text/css" href="CSS/Map.css">
+		<link rel="stylesheet" type="text/css" href="CSS/Contact.css">
 		<link rel="stylesheet" type="text/css" href="CSS/Common.css">
+
+		<!--External link-->
+  		 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
 
 		<!-- BootStrap Links-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   		<script src="BootstrapFiles/jquery.min.js"></script>
   		<script src="BootstrapFiles/bootstrap.min.js"></script>
 	</head>
+
 	<body>
 		<!-- Nav Bar Bootstrap-->
 		<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -34,12 +38,66 @@
 		  	</div>
 		</nav>
 
-		<!-- Body Of Page -->
+		<!-- Content Of Page -->
+					
+			<div id="CInfo">
+				<table>
+		<tr>
+			<td>
+			<form name="ContactInfoForm" method="post" action="">
+			
+			<table align="center">
+			<tr>
+ 				<td>
+ 					<fieldset>
+ 					<legend>Contact Information</legend>
+ 					
+ 					 <table>
+					    <tr>
+					      <td>
+					       		<span class="fontawesome-book"></span>					       		
+					          	<input type="text" id="fname" placeholder="First Name"> 
+					      </td> 
+					    </tr>
+					     <tr>
+					      <td>
+					       		<span class="fontawesome-book"></span>					       		
+					          	<input type="text" id="lname" placeholder="Last Name"> 
+					      </td> 
+					    </tr>
+					    <tr>
+					      <td>
+					       		<span class="fontawesome-envelope"></span>					       		
+					          	<input type="text" id="email" placeholder="Email"> 
+					      </td>
+					    </tr>
+					    <tr>
+					    	<td>
+					    		<span class="fontawesome-book"></span>
+					    		<textarea  placeholder="Comment"></textarea> 
+					    	</td>
+					    </tr>
+					     <tr>
+					        <td><input type="submit" value="Submit" /></td>
+					    </tr>
+					  </table>
+					</fieldset>
+ 				</td>
+ 			</tr>
 
+ 		</table>
+ 		
+ 		</form>
+ 	</td>
+ 	<td>
+ 		<img src="Images/c1.png">
+ 	</td>
+ </table>
+ 	</div>
 		<!-- Footer of Page -->
 		<footer>
 			<address> &copy; Copyright 2017, Made under MIT liscense www.ad_flint@hotmail.com <br> 6th Semester Web Technology Project</address> 
 		</footer>
 
-	</body>
+</body>
 </html>
