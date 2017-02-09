@@ -1,168 +1,161 @@
-body
-{
-	background-repeat: no-repeat;
+body {
+    background-repeat: no-repeat;
 }
-.VideoBack
-{
-  	position: fixed;
-	min-width: 100%;
-	min-height: 100%;
-	left: 50%;
-	top: 50%;
-	width: auto; 
-	height: auto; 
-	z-index: -100;
-	-ms-transform: translateX(-50%) translateY(-50%);
-	-moz-transform: translateX(-50%) translateY(-50%);
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
-	background:url('Images/MovBack1.png') no-repeat;
-	background-size:cover;
+
+.VideoBack {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    left: 50%;
+    top: 50%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url('Images/MovBack1.png') no-repeat;
+    background-size: cover;
 }
 
 /*Main Body CSS*/
-.MainDiv
-{
-		margin-top: 50px;
-		float: left;
-		width: 100%;
-		height:700px;
+.MainDiv {
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+    height: 700px;
 }
-.MainDiv .MainIntro
-{
-	  	text-align: center;
-		height:150px;
-		float:left;
-		width:100%;
-		margin-top: 20px;
-}
-.MainDiv .MainTable
-{
-		float:left;
-		width: 100%;
-}
-.MainDiv .MainTable table
-{
-  		float: left;
-		width: 100%;
-		height: 600px;
-}
-.MainTable td
-{
-	  	float: left;
-  		width: 1100px;
-  		left: 50%;
-  		margin-left: -540px;
-  		position: relative;
+
+    .MainDiv .MainIntro {
+        text-align: center;
+        height: 150px;
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .MainDiv .MainTable {
+        float: left;
+        width: 100%;
+    }
+
+        .MainDiv .MainTable table {
+            float: left;
+            width: 100%;
+            height: 600px;
+        }
+
+.MainTable td {
+    float: left;
+    width: 1100px;
+    left: 50%;
+    margin-left: -540px;
+    position: relative;
 }
 
 /*MainDiv Frills*/
-.MainIntro hr
-{
-		padding: 0; 
-		border: none; 
-		border-top: solid 5px;
-		text-align: center;
-		max-width:250px;
-		margin: 25px auto 30px;
-		border-color: white;
+.MainIntro hr {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+    border-color: white;
 }
-.MainIntro .name
-{
-		margin-top: 25px;
-		display: block;
-		font-family:"Montserrat";
-		text-transform: uppercase;
-		font-weight:700;
-		font-size: 30px;
-		text-shadow: 1px 1px 1px;
+
+.MainIntro .name {
+    margin-top: 25px;
+    display: block;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px;
 }
-.MainIntro p
-{
-		margin-top: -10px;
-		font-size: 14px;
-		font-family:"Montserrat";
-		font-weight: 700;
+
+.MainIntro p {
+    margin-top: -10px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 700;
 }
 
 
 /*Navigation Elements CSS*/
-#CFirst, #CSecond, #CThird
-{
-		margin: 6% 5%;
-		text-align: center;
-		float:left;
-		width: 250px;
-		height: 250px;
-		border-radius: 10px;
-		background:none;
-		transition: 0.5s;
-		background-color: #130f0f;
-	  	box-shadow: 1px 1px 1px;
-}
-@media (max-width: 1102px)
-{
-	.MainTable td
-	{
-	  	float: left;
-  		width: 350px;
-  		left: 50%;
-  		margin-left: -175px;
-  		position: relative;
-  		margin-top : 2%; 
-  		margin-bottom: 2%;
-	}
-	#CFirst, #CSecond, #CThird
-	{
-  		height: 312px;
-  		width: 312px;
-	}
-	footer
-	{
-		margin-top: 100%;
-		bottom: 0; 
-	}
-}
-#CFirst img, #CSecond img, #CThird img
-{
-	  	width: 100%;
-	  	height: 250px
-		margin: 0; 
-		padding: 0;
-		max-width: 100%;
+#CFirst, #CSecond, #CThird {
+    margin: 6% 5%;
+    text-align: center;
+    float: left;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background: none;
+    transition: 0.5s;
+    background-color: #130f0f;
+    box-shadow: 1px 1px 1px;
 }
 
-#CFirst a, #CSecond a, #CThird a
-{
-	  	display: block; 
-	  	position: relative;
-	  	max-width: 400px;
-	  	margin: 0 auto; 
+@media (max-width: 1102px) {
+    .MainTable td {
+        float: left;
+        width: 350px;
+        left: 50%;
+        margin-left: -175px;
+        position: relative;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    #CFirst, #CSecond, #CThird {
+        height: 312px;
+        width: 312px;
+    }
+
+    footer {
+        margin-top: 100%;
+        bottom: 0;
+    }
 }
-.caption
-{
-		border-radius: 10px;
-	  	background-color: #2c3e50;
-	  	position: absolute; 
-	  	width: 100%;
-	  	height: 100%;
-	  	opacity: 0; 
-	  	transition: all ease 0.5s;
+
+#CFirst img, #CSecond img, #CThird img {
+    width: 100%;
+    height: 250px margin: 0;
+    padding: 0;
+    max-width: 100%;
 }
-.caption:hover
-{
-  		opacity: 1;
+
+#CFirst a, #CSecond a, #CThird a {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
 }
-.caption .caption-content
-{
-	  	font-family: "Courier New", "Georgia";
-	  	font-weight: 700;
-	    font-size: 30px;
-	  	text-shadow: 1px 1px 1px;
-	  	position:absolute; 
-	  	width: 100%; 
-	  	height: 20px; 
-	  	top: 50%; 
-	  	margin-top: -30px; 
-	  	color: white; 
+
+.caption {
+    border-radius: 10px;
+    background-color: #2c3e50;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
 }
+
+    .caption:hover {
+        opacity: 1;
+    }
+
+    .caption .caption-content {
+        font-family: "Courier New", "Georgia";
+        font-weight: 700;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px;
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        top: 50%;
+        margin-top: -30px;
+        color: white;
+    }

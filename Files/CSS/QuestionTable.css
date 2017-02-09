@@ -1,88 +1,95 @@
 ﻿/*Question Main Section*/
-.CompDiv .QDiv{ 
-	background-color: #3a829e;
-	height: 70%;
-}
-.CompDiv .QDiv .QDivMain{ 
-  	text-align: center;
-  	height: 85%;
-}
-.CompDiv .QDiv .QDivMain .divtable table{
-  	margin-top: 10%;
-  	height: 80%;
-  	width: 80%;
-  	position: relative;
-  	left: 10%;
-  	background-color: white;
-  	box-shadow: 1px 1px 1px grey;
-}
-.CompDiv .QDiv .QDivMain .divtable table td{
-  	height: 20%;
-	border-bottom: 1px dotted grey;
+.CompDiv .QDiv {
+    background-color: #3a829e;
+    height: 70%;
 }
 
-/*Question Footer Section*/
-.CompDiv .QDiv .QDivFooter{ 
-	height: 15%;
-}
+    .CompDiv .QDiv .QDivMain {
+        text-align: center;
+        height: 85%;
+    }
 
-/* Button*/
-.CompDiv .QDiv .QDivFooter #button{
-  	width: 100%;
-  	height: 50%;
-}
-.CompDiv .QDiv .QDivFooter #button .btn{
-	margin-top: 0%;
-	background-color: #DC6950;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-family: "sans";
-	position: relative;
-	left: 43%;
-	height: 100%;
-	width: 140px;
-	transition: all ease 0.5s;
-	overflow: hidden;
-}
-.CompDiv .QDiv .QDivFooter #button .btn:hover{
-	background-color: #DC6940;
-	margin-top: -10px;
-	transition: all ease 0.5s;
-	box-shadow: 1px 1px 1px #202020;
-}
+        .CompDiv .QDiv .QDivMain .divtable table {
+            margin-top: 10%;
+            height: 80%;
+            width: 80%;
+            position: relative;
+            left: 10%;
+            background-color: white;
+            box-shadow: 1px 1px 1px grey;
+        }
+
+            .CompDiv .QDiv .QDivMain .divtable table td {
+                height: 20%;
+                border-bottom: 1px dotted grey;
+            }
+
+    /*Question Footer Section*/
+    .CompDiv .QDiv .QDivFooter {
+        height: 15%;
+    }
+
+        /* Button*/
+        .CompDiv .QDiv .QDivFooter #button {
+            width: 100%;
+            height: 50%;
+        }
+
+            .CompDiv .QDiv .QDivFooter #button .btn {
+                margin-top: 0%;
+                background-color: #DC6950;
+                color: #fff;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-family: "sans";
+                position: relative;
+                left: 43%;
+                height: 100%;
+                width: 140px;
+                transition: all ease 0.5s;
+                overflow: hidden;
+            }
+
+                .CompDiv .QDiv .QDivFooter #button .btn:hover {
+                    background-color: #DC6940;
+                    margin-top: -10px;
+                    transition: all ease 0.5s;
+                    box-shadow: 1px 1px 1px #202020;
+                }
 
 /*Progress Bar*/
-.progress #pr{
-	text-align: center;
-	color: black;
-	font-size: 18px;
-	font-weight 700;
-	text-shadow: 1px 1px 1px #202020;
+.progress #pr {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight 700;
+    text-shadow: 1px 1px 1px #202020;
 }
 
 /* Table */
-#QuestionSet1{
-	display: inline;
-}
-#QuestionSet2{
-	display: none;
+#QuestionSet1 {
+    display: inline;
 }
 
-.divtable .Question{
-	font-family: "Courier New";
-	font-size: 20px;
-	font-weight: 800;
+#QuestionSet2 {
+    display: none;
 }
 
-.SelForm{
-	overflow: hidden;
-	text-align: center;
-}
-.SelForm .radio1{
-	margin-left: 15px;
-}
-.SelForm .radio7{
-	margin-right: 15px;
+.divtable .Question {
+    font-family: "Courier New";
+    font-size: 20px;
+    font-weight: 800;
 }
 
+.SelForm {
+    overflow: hidden;
+    text-align: center;
+}
+
+    .SelForm .radio1 {
+        margin-left: 15px;
+    }
+
+    .SelForm .radio7 {
+        margin-right: 15px;
+    }

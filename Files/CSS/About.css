@@ -1,96 +1,98 @@
 
-#about-us{
-	display:block; 
-	width:100%; 
-	line-height:1.6em;
+#about-us {
+    display: block;
+    width: 100%;
+    line-height: 1.6em;
 }
-#about-us h2{
-	margin-top: 50px;
-	margin-bottom:50px; 
-	padding-bottom:40px; 
-	font-size:40px;
-    text-shadow: 5px 5px 5px #202020; 
-	text-align:center; 
-	text-transform:uppercase; 
-	border-bottom:1px solid #CCCCCC;
-} 
-.Text
-{
+
+    #about-us h2 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-bottom: 40px;
+        font-size: 40px;
+        text-shadow: 5px 5px 5px #202020;
+        text-align: center;
+        text-transform: uppercase;
+        border-bottom: 1px solid #CCCCCC;
+    }
+
+.Text {
     font-family: 'Franklin Gothic Book';
 }
-table
-{
+
+table {
     width: 70%;
     margin-left: 12%;
 }
-.tablestyle
-{
+
+.tablestyle {
     padding: 20px;
     margin-left: 30px;
     border-radius: 10px 0px;
     width: 50%;
     background-color: #4c9070;
-
-}
-#about-us img{
-	width:446px;
-	height:239px;
-}
-#about-us #about-intro{
-	margin-bottom:50px;
-}
-#about-us #about-intro p{
-	margin:2%;
-	text-align: justify;
-}
-#about-us #about-intro p:first-child{
-	margin-top:0;
 }
 
-#team img, figcaption{
-	margin-left: 120%;
-	margin-right:120%
+#about-us img {
+    width: 446px;
+    height: 239px;
 }
-.one_third, 
+
+#about-us #about-intro {
+    margin-bottom: 50px;
+}
+
+    #about-us #about-intro p {
+        margin: 2%;
+        text-align: justify;
+    }
+
+        #about-us #about-intro p:first-child {
+            margin-top: 0;
+        }
+
+#team img, figcaption {
+    margin-left: 120%;
+    margin-right: 120%;
+}
+
+.one_third,
 {
-	display:inline-block; 
-	float:left;
-	margin:0 0 0 20px; 
-	list-style:none;
+    display: inline-block;
+    float: left;
+    margin: 0 0 0 20px;
+    list-style: none;
 }
 
 .one_third {
-	margin-right: 15%;
-	margin-left: 15%;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
-.first, 
- 
-.one_third:first-child, {
-	margin-left:0;
-}
+    .first,
+    .one_third:first-child, {
+        margin-left: 0;
+    }
 
-.one_third{
-	width:300px;
+.one_third {
+    width: 300px;
 }
 
 /*Footer CSS*/
-footer 
-{
+footer {
     margin-top: 15%;
     float: left;
-      bottom: 0;
+    bottom: 0;
     width: 100%;
     height: 70px;
     color: rgb(100,100,0);
     box-shadow: 5px 5px 10px #202020;
-      background-color: #233140;
+    background-color: #233140;
 }
 
-footer address
-{
-    text-align:center;
-    font-size: 12px;
-    color: #efefef;
-    padding: 1% 0;
-}
+    footer address {
+        text-align: center;
+        font-size: 12px;
+        color: #efefef;
+        padding: 1% 0;
+    }

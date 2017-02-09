@@ -1,112 +1,120 @@
 /*Main Body CSS*/
-.CompDiv{
-	width: 100%;
-	height:1500px;
-	float: left;
-	margin-top: 50px;
+.CompDiv {
+    width: 100%;
+    height: 1500px;
+    float: left;
+    margin-top: 50px;
 }
 
-/*Side Navigation*/
-.CompDiv .SNav{
-	font-family: Agenda-Light, Agenda;
-	float: left;
-	height: 100%;
-	overflow: none;
-	width: 12%;
-	max-width: 100%; 
-	transition: all ease 0.5s;
-	background-color: #4c9070;
-}
-.CompDiv .SNav:hover{
-	width: 18%;
-	transition: all ease 0.5s;
-}
-.CompDiv .SNav ul{
-	margin-top: 30px;
-	width: inherit;
-	text-align: center; 
-	font-size: 20px;
-	text-transform: uppercase;
-	font-weight: 700;
-	text-shadow: 1px 1px 1px;
-}
+    /*Side Navigation*/
+    .CompDiv .SNav {
+        font-family: Agenda-Light, Agenda;
+        float: left;
+        height: 100%;
+        overflow: none;
+        width: 12%;
+        max-width: 100%;
+        transition: all ease 0.5s;
+        background-color: #4c9070;
+    }
 
-.CompDiv .SNav hr{
-	width: 80%; 
-}
+        .CompDiv .SNav:hover {
+            width: 18%;
+            transition: all ease 0.5s;
+        }
 
-.CompDiv .SNav ul li{
-	margin-top: 10px;
-	padding-top: 10px;
-	color: white;
-}
+        .CompDiv .SNav ul {
+            margin-top: 30px;
+            width: inherit;
+            text-align: center;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-shadow: 1px 1px 1px;
+        }
 
-.CompDiv .SNav ul a:hover{
-	text-decoration: none;
-}
+        .CompDiv .SNav hr {
+            width: 80%;
+        }
 
-.CompDiv .SNav ul li img{
-	margin-bottom: 50px;
-	height: 128px;
-	width: auto;
-}
+        .CompDiv .SNav ul li {
+            margin-top: 10px;
+            padding-top: 10px;
+            color: white;
+        }
 
-.CompDiv .SNav ul .litext:hover, .CompDiv .SNav ul .litext:active{
-	background-color: #629e82;
-}
+        .CompDiv .SNav ul a:hover {
+            text-decoration: none;
+        }
 
-/*Question Section*/
-.CompDiv .QIntroDiv, .CompDiv .QDiv{ 
-	width: 88%;
-	margin-left: 12%;
-}
-@media (max-width:1190px){
-	.CompDiv .SNav
-	{
-        display:none;
-	}
-	.CompDiv .QDiv, .CompDiv .QIntroDiv
-	{
-		margin-left: 0%;
-		width: 100%;
-	}
+        .CompDiv .SNav ul li img {
+            margin-bottom: 50px;
+            height: 128px;
+            width: auto;
+        }
+
+        .CompDiv .SNav ul .litext:hover, .CompDiv .SNav ul .litext:active {
+            background-color: #629e82;
+        }
+
+    /*Question Section*/
+    .CompDiv .QIntroDiv, .CompDiv .QDiv {
+        width: 88%;
+        margin-left: 12%;
+    }
+
+@media (max-width:1190px) {
+    .CompDiv .SNav {
+        display: none;
+    }
+
+    .CompDiv .QDiv, .CompDiv .QIntroDiv {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 
 /*Question Intro Section*/
-.CompDiv .QIntroDiv{
-	background-color: white;
-	text-align: center;
-	height: 25%;
+.CompDiv .QIntroDiv {
+    background-color: white;
+    text-align: center;
+    height: 25%;
 }
-.CompDiv .QIntroDiv h1{
-  	font-family: "Verdana";
-  	font-size: 30px;
-  	font-weight: 800;
-  	text-transform: uppercase;
-  	text-shadow: 1px 1px 1px #202020;
-}
-.CompDiv .QIntroDiv table{
-	height: 75%;
-	width: 50%;
-	margin-left: 25%;
-	float: left;
-}
-.CompDiv .QIntroDiv table td{
-	width: 50%;
-}
-.CompDiv .QIntroDiv table #img1{	
-	height: 120px;
-	width: auto;
-	max-width: 100%;
-}
-.CompDiv .QIntroDiv table #img2{	
-	height: 128px;
-	width: auto;
-	max-width: 100%;
-}
-.CompDiv .QIntroDiv table td p{
- 	font-family: "sans-serif";
-	text-align: center;
-	font-size: 12px;
-  	font-weight: 600;
-}
+
+    .CompDiv .QIntroDiv h1 {
+        font-family: "Verdana";
+        font-size: 30px;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px #202020;
+    }
+
+    .CompDiv .QIntroDiv table {
+        height: 75%;
+        width: 50%;
+        margin-left: 25%;
+        float: left;
+    }
+
+        .CompDiv .QIntroDiv table td {
+            width: 50%;
+        }
+
+        .CompDiv .QIntroDiv table #img1 {
+            height: 120px;
+            width: auto;
+            max-width: 100%;
+        }
+
+        .CompDiv .QIntroDiv table #img2 {
+            height: 128px;
+            width: auto;
+            max-width: 100%;
+        }
+
+        .CompDiv .QIntroDiv table td p {
+            font-family: "sans-serif";
+            text-align: center;
+            font-size: 12px;
+            font-weight: 600;
+        }
