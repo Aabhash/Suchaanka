@@ -46,9 +46,11 @@ function load()
 	var arr = [e,s];
 	arr = score(e, s);
 	rdisable();
-	loadJSONData(arr);
-	window.open("WT_ASP/WT_ASP/Results.aspx", "_self");
+	var a = (arr[0] * 2.4 / 10);
+    var b = (arr[1] * 2.4 / 10)
+	window.open("http://localhost:57390/Results.aspx?score="+a+b, "_self");
 }
+
 
 function score(escore,sscore)
 {
@@ -115,28 +117,4 @@ function renable()
 	{
 		a[x].disabled = false;
 	}
-}
-
-function loadJSONData(a)
-{
-    var postdata = JSON.stringify(a);
-    try{
-        $.ajax({
-            type: "POST",
-            url: "WT_ASP/WT_ASP/Results.aspx",
-            dataType: "json",
-            data: postdata,
-            success: getSuccess,
-            error: getFail
-        });
-    }
-    catch (e) {
-        alert(e);
-    }
-    function getSuccess(data, textStatus, jqXHR) {
-        alert(data.Response);
-    };
-    function getFail(jeXHR, textStatus, errorThrown) {
-        alert(jqXHR.status);
-    };
 }
