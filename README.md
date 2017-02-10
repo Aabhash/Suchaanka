@@ -1,2 +1,3 @@
-# WTProject
-Web Based Project for Web Technology 6th Semester
+# Suchaanka
+Political compass concerning issues related to Nepal. 
+Issues tracking by district using map coming soon.
