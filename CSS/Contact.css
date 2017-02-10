@@ -5,6 +5,9 @@
     font-family: 'FontAwesome', sans-serif;
 }
 
+.error{
+    color:red;
+}
 body {
     width: 100%;
     background: #2c3338;
