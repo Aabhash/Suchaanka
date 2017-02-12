@@ -15,12 +15,23 @@ body {
     margin-left: -250px;
 }
 #Text{
+    text-align: center;
+    height: 50px;
+    width: 650px;
 	position: fixed; 
-	top: 10%;
+	top: 1%;
 	left: 50%;
-	margin-left: -85px;
+	margin-left: -325px;
 	color: white;
 	text-shadow: 2px 2px 2px #202020;
+}
+#Text h1
+{
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #44c8c8;
 }
 #Main {
     background-image: url('../Images/Compass.png');
@@ -47,4 +58,12 @@ body {
     top: 45%;
     height: 38%;
     width: 40%;
+}
+
+#Remarks
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -35px;
 }
