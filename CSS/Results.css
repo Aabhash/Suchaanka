@@ -42,7 +42,7 @@ body {
 }
 
 #ImageBorder {
-    position: relative;
+    position: absolute;
     left: 45%;
     top: 45%;
     height: 38%;
