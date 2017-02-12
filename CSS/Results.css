@@ -23,7 +23,7 @@ body {
 	text-shadow: 2px 2px 2px #202020;
 }
 #Main {
-    background-image: url('Compass.png');
+    background-image: url('../Images/Compass.png');
     height: 88%;
     width: 82%;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@ body {
 }
 
 #ImageDiv {
-    background-image: url('Cross.png');
+    background-image: url('../Images/Cross.png');
     height: 24px;
     width: 24px;
     position: relative;
