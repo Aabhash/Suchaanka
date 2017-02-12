@@ -1,7 +1,8 @@
 ﻿function computeRes() {
 
+alert("Hello");
 	var x = window.location.search.slice(7);
-
+	alert("Hello");
 	var m = 0, n = 0;
 	if (x.length == 2) {
 		m = x[0];
