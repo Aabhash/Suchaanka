@@ -29,19 +29,19 @@
 
 	if(m > 0 && n > 0)
 	{
-		Remarks.innerHTML += "<h1><br>Authoritarian Right Wing</h1><hr> Examples <br> Margaret Thatcher Theresa May Donald Trump Narendra Modi "
+		Remarks.innerHTML += "<h1><br>Authoritarian Right Wing</h1><hr> Examples <br><br> Thatcher, May, Trump, Modi "
 	}
 	else if(m >0 && n < 0)
 	{
-		Remarks.innerHTML += "<h1><br>Authoritarian Left Wing </h1><hr> Examples <br> Xi-Jinping KP Oli"
+		Remarks.innerHTML += "<h1><br>Authoritarian Left Wing </h1><hr> Examples <br><br> Xi-Jinping, KP Oli"
 	}
 	else if(m < 0 && n < 0)
 	{
-		Remarks.innerHTML += "<h1><br>Libertarian Left Wing </h1><hr> Examples <br> Bernie Sanders Jeremy Corbyn Benoit Hamon"
+		Remarks.innerHTML += "<h1><br>Libertarian Left Wing </h1><hr> Examples <br><br> Sanders, Corbyn, Benoit Hamon"
 	}
 	else if(m < 0 && n > 0)
 	{
-		Remarks.innerHTML +="<h1><br>Libertarian Right Wing </h1><hr> Examples <br> David Cameron Rand Paul "
+		Remarks.innerHTML +="<h1><br>Libertarian Right Wing </h1><hr> Examples <br><br> David Cameron, Rand Paul "
 	}
 	else
 	{
