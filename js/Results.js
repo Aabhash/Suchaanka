@@ -19,7 +19,7 @@
 		m = 0 - x[1];
 		n = 0 - x[3];
 	}
-	//Max value = (1.5 * 6) * 16
+	//Max value = (3 * 6) * 16
 	var mi = m * 16;
 	var ni = n * 16;
 

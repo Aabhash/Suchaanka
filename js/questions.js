@@ -43,9 +43,9 @@ function load() {
 	arr = score(e, s);
 	rdisable();
 
-	//Score array elements(max 6*10 = 60) * 1.5 / 10 thus max  = 9
-	var a = Math.floor(arr[0] * 1.5 / 10);
-	var b = Math.floor(arr[1] * 1.5 / 10);
+	//Score array elements(max 6*10 = 60) * 3 / 10 thus max  = 9
+	var a = Math.floor(arr[0] * 3 / 10);
+	var b = Math.floor(arr[1] * 3 / 10);
 
 	window.open("Results.html?score=" + a + b, "_self");
 }
