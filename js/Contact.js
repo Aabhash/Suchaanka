@@ -8,15 +8,11 @@ function validate() {
 	var em = document.getElementById('email').value;
 	submit = true;
 
-
 	if (firstname == '') {
 		document.getElementById('fname_error').innerHTML = "First Name Is Required";
 		fname.focus();
 		return false;
 	}
-
-
-
 
 	if (lastname == '') {
 		document.getElementById('lname_error').innerHTML = "Last Name Is Required";
@@ -31,9 +27,7 @@ function validate() {
 	if (em == '') {
 		document.getElementById('em_error').innerHTML = "Email Is Required";
 		return false;
-
 	}
-
 	if (em != '') {
 		if (!(re.test(em))) {
 
