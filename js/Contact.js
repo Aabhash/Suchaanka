@@ -4,34 +4,36 @@ function validate() {
 	var re = /\S+@\S+\.\S+/;
 	var firstname = document.getElementById('fname').value;
 	var lastname = document.getElementById('lname').value;
-	var sub = document.getElementById('sub').value;
-	var em = document.getElementById('em').value;
+	var sub = document.getElementById('subject').value;
+	var em = document.getElementById('e-mail').value;
 	submit = true;
 
 	if (firstname == '') {
 		document.getElementById('fname_error').innerHTML = "First Name Is Required";
-		fname.focus();
+		fname.blur();
 		return false;
 	}
 
 	if (lastname == '') {
 		document.getElementById('lname_error').innerHTML = "Last Name Is Required";
-		lname.focus();
+		lname.blur();
 		return false;
 	}
 	if (sub == '') {
-		document.getElementById('sub_error').innerHTML = "Subject Is Required";
+		document.getElementById('subject_error').innerHTML = "Subject Is Required";
+		subject.blur();
 		return false;
 	}
 
 	if (em == '') {
-		document.getElementById('em_error').innerHTML = "Email Is Required";
+		document.getElementById('e-mail_error').innerHTML = "Email Is Required";
+		e-mail.blur();
 		return false;
 	}
 	if (em != '') {
 		if (!(re.test(em))) {
 
-			document.getElementById('em_error').innerHTML = "Email Is INVALID!";
+			document.getElementById('e-mail_error').innerHTML = "Email Is INVALID!";
 			return false;
 		}
 	}
