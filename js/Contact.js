@@ -1,6 +1,5 @@
 
 function validate() {
-
 	var re = /\S+@\S+\.\S+/;
 	var firstname = document.getElementById('fname').value;
 	var lastname = document.getElementById('lname').value;
@@ -24,10 +23,9 @@ function validate() {
 		subject.blur();
 		return false;
 	}
-
 	if (em == '') {
 		document.getElementById('e-mail_error').innerHTML = "Email Is Required";
-		e-mail.blur();
+		e - mail.blur();
 		return false;
 	}
 	if (em != '') {
