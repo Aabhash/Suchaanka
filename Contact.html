@@ -16,14 +16,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="BootstrapFiles/jquery.min.js"></script>
     <script src="BootstrapFiles/bootstrap.min.js"></script>
-
-    <script type="text/javascript">
-    function removewarning()
-    {
-        document.getElementById(this.id +'_error').innerHTML = " ";
-    }
-    </script>
-
 </head>
 
 <body>
@@ -65,7 +57,7 @@
                                                 <td>
                                                     <!--First name -->
                                                     <span class="fontawesome-book"></span>
-                                                    <input type="text" id="fname" placeholder="First Name" onkeypress="removewarning()"/> <div class ="error" id="fname_error"></div>
+                                                    <input type="text" id="fname" placeholder="First Name" onkeypress="removewarning(event)"/> <div class ="error" id="fname_error"></div>
                                                 </td>
                                             </tr>
                                             <tr>

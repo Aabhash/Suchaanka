@@ -45,11 +45,14 @@ function validate(){
 				}
 				return submit;
 			}
-document.getElementById('fname').onkeypress = removewarning;
-function removewarning()
-{
-    document.getElementById(this.id +'_error').innerHTML = "";
-}				
+
+	function removewarning(e)
+    {
+    	var y = e.target;
+    	var m = y.id+'_error';
+    	var n = document.getElementById(m);
+        n.innerHTML = "";
+    }
  
  		
 
