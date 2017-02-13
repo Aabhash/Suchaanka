@@ -1,3 +1,4 @@
+
 function validate(){				
 				
 				 	var re = /\S+@\S+\.\S+/;
@@ -5,26 +6,32 @@ function validate(){
 					var lastname = document.getElementById('lname').value;
 					var sub = document.getElementById('subject').value;
 					var em = document.getElementById('email').value;
-                        submit = true;
+					submit = true;
+
+
                 if(firstname == '')
                         {
                             document.getElementById('fname_error').innerHTML = "First Name Is Required";
+                            fname.focus();
                             return false;
                         }                     
                 
 				
+				
+				
 				if(lastname ==''){
 				   document.getElementById('lname_error').innerHTML = "Last Name Is Required";
-                            return false;
+				   lname.focus();
+                   return false;
 				}
 				if(sub ==''){
 					document.getElementById('sub_error').innerHTML = "Subject Is Required";
-                            return false;
+                    return false;
 				}
 				
 				if(em ==''){
 					 document.getElementById('em_error').innerHTML = "Email Is Required";
-                            return false;
+                     return false;
 
 				}
 				
@@ -33,13 +40,16 @@ function validate(){
 					 if (!( re.test(em))){
 				   
 				       	 document.getElementById('em_error').innerHTML = "Email Is INVALID!";
-                          return false;
+                         return false;
 				    }
 				}
-				
-					return submit;
-				
-				   
+				return submit;
+			}
+document.getElementById('fname').onkeypress = removewarning;
+function removewarning()
+{
+    document.getElementById(this.id +'_error').innerHTML = "";
+}				
  
- 			}
+ 		
 

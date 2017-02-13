@@ -9,17 +9,20 @@
     <link rel="stylesheet" type="text/css" href="CSS/Common.css">
     <script type="text/javascript" src="js/Contact.js"></script>
 
-    <script type="text/javascript">
-   
-    </script>
-
-    <!--External link-->
+    <!--Font awesome link-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!-- BootStrap Links-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="BootstrapFiles/jquery.min.js"></script>
     <script src="BootstrapFiles/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+    function removewarning()
+    {
+        document.getElementById(this.id +'_error').innerHTML = " ";
+    }
+    </script>
 
 </head>
 
@@ -48,7 +51,8 @@
         <table>
             <tr>
                 <td>
-                    <form name='f1' id="CInfoForm" method="post" action="">
+                    <!--Contact Info Form -->
+                    <form name='f1' id="CInfoForm" method="post" onsubmit="return validate()" action="">
 
                         <table align="center">
                             <tr>
@@ -59,36 +63,42 @@
                                         <table>
                                             <tr>
                                                 <td>
+                                                    <!--First name -->
                                                     <span class="fontawesome-book"></span>
-                                                    <input type="text" id="fname" placeholder="First Name"/> <div class ="error" id="fname_error"></div>
+                                                    <input type="text" id="fname" placeholder="First Name" onkeypress="removewarning()"/> <div class ="error" id="fname_error"></div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
+                                                    <!--Last name -->
                                                     <span class="fontawesome-book"></span>
                                                     <input type="text" id="lname" placeholder="Last Name"/> <div class="error" id="lname_error"></div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
+                                                    <!--Subject -->
                                                     <span class="fontawesome-file"></span>
-                                                    <input type="text" id="subject" placeholder="Subject"/> <div class="error" id="sub_error" ></div>
+                                                    <input type="text" id="subject" placeholder="Subject" /> <div class="error" id="sub_error" ></div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
+                                                    <!--Email-->
                                                     <span class="fontawesome-envelope"></span>
                                                     <input type="text" id="email" placeholder="Email"/> <div class="error" id="em_error" ></div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
+                                                    <!--Comment-->
                                                     <span class="fontawesome-book"></span>
                                                     <textarea placeholder="Comment"></textarea>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td><input type="submit" value="Submit" onClick="validate()" /></td>
+                                                <!--Submit-->
+                                                <td><input type="submit" value="Submit" /></td> 
                                             </tr>
                                         </table>
                                     </fieldset>
@@ -100,6 +110,7 @@
                     </form>
                 </td>
                 <td>
+                    <!--Telephone Image-->
                     <img src="Images/c1.png">
                 </td>
         </table>
