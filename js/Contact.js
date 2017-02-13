@@ -4,8 +4,8 @@ function validate() {
 	var re = /\S+@\S+\.\S+/;
 	var firstname = document.getElementById('fname').value;
 	var lastname = document.getElementById('lname').value;
-	var sub = document.getElementById('subject').value;
-	var em = document.getElementById('email').value;
+	var sub = document.getElementById('sub').value;
+	var em = document.getElementById('em').value;
 	submit = true;
 
 	if (firstname == '') {
