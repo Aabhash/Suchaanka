@@ -6,6 +6,7 @@ function validate() {
 	var lastname = document.getElementById('lname').value;
 	var sub = document.getElementById('subject').value;
 	var em = document.getElementById('email').value;
+	var comment=document.getElementById('comment').value;
 	submit = true;
 
 	if (firstname == '') {
@@ -28,6 +29,12 @@ function validate() {
 		document.getElementById('em_error').innerHTML = "Email Is Required";
 		return false;
 	}
+	if(comment=='')
+	{
+		document.getElementById('comment_error').innerHTML = "Comment Is Required";
+		return false;
+	}
+
 	if (em != '') {
 		if (!(re.test(em))) {
 
