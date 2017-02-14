@@ -59,3 +59,14 @@ function removewarning(e) {
 
 
 
+function reset(){
+
+
+	document.getElementById('fname').value = "";
+	document.getElementById('lname').value = "";
+	document.getElementById('subject').value = "";
+	document.getElementById('e-mail').value= "";
+	document.getElementById('comment').value = "";
+
+
+}
