@@ -25,27 +25,22 @@
 
 	//Set Image property
 	ImageDiv.style.marginLeft = mi + 'px';
-	ImageDiv.style.marginTop = ni+ 'px';
+	ImageDiv.style.marginTop = ni + 'px';
 
-	if(m > 0 && n > 0)
-	{
+	if (m > 0 && n > 0) {
 		Remarks.innerHTML += "<h1><br>Authoritarian Right Wing</h1><hr> Examples <br><br> Thatcher, May, Trump, Modi "
 	}
-	else if(m >0 && n < 0)
-	{
+	else if (m > 0 && n < 0) {
 		Remarks.innerHTML += "<h1><br>Authoritarian Left Wing </h1><hr> Examples <br><br> Xi-Jinping, KP Oli"
 	}
-	else if(m < 0 && n < 0)
-	{
+	else if (m < 0 && n < 0) {
 		Remarks.innerHTML += "<h1><br>Libertarian Left Wing </h1><hr> Examples <br><br> Sanders, Corbyn, Benoit Hamon"
 	}
-	else if(m < 0 && n > 0)
-	{
-		Remarks.innerHTML +="<h1><br>Libertarian Right Wing </h1><hr> Examples <br><br> David Cameron, Rand Paul "
+	else if (m < 0 && n > 0) {
+		Remarks.innerHTML += "<h1><br>Libertarian Right Wing </h1><hr> Examples <br><br> David Cameron, Rand Paul "
 	}
-	else
-	{
-		Remarks.innerHTML +="<h1><br>Centrist </h1><hr> Examples <br><br> Barack Obama, Justin Trudeau, Hilary Clinton, Tony Blair"
+	else {
+		Remarks.innerHTML += "<h1><br>Centrist </h1><hr> Examples <br><br> Barack Obama, Justin Trudeau, Hilary Clinton, Tony Blair"
 	}
 }
 
