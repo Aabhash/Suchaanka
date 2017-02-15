@@ -45,7 +45,7 @@
             <tr>
                 <td>
                     <!--Contact Info Form -->
-                    <form name='f1' id="CInfoForm" method="post" onsubmit="return validate()" action="">
+                    <form name='f1' id="CInfoForm" method="post" onsubmit="return false;">
 
                         <table align="center">
                             <tr>
@@ -90,13 +90,13 @@
                                                 <td>
                                                     <!--Comment-->
                                                     <span class="fontawesome-book"></span>
-                                                    <textarea placeholder="Comment" id="comment" onClick="removewarning(event)"></textarea>
+                                                    <textarea placeholder="Comment" id="comment" onclick="removewarning(event)"></textarea>
                                                     <div class="error" id="comment_error"></div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <!--Submit-->
-                                                <td><input type="submit" value="Submit" /></td>
+                                                <td><input type="submit" value="Submit" onclick="return validate();"/></td>
                                             </tr>
                                         </table>
                                     </fieldset>
