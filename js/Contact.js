@@ -7,45 +7,54 @@ function validate() {
 
 	var em = document.getElementById('e-mail').value;
 
-	var comment=document.getElementById('comment').value;
+	var com=document.getElementById('comment').value;
 
-	submit = true;
+	var x = true;
 
 	if (firstname == '') {
 		document.getElementById('fname_error').innerHTML = "First Name Is Required";
 		fname.blur();
-		return false;
+		x = false;
 	}
 
 	if (lastname == '') {
 		document.getElementById('lname_error').innerHTML = "Last Name Is Required";
 		lname.blur();
-		return false;
+		x = false;
 	}
 	if (sub == '') {
 		document.getElementById('subject_error').innerHTML = "Subject Is Required";
 		subject.blur();
-		return false;
+		x = false;
 	}
 	if (em == '') {
 		document.getElementById('e-mail_error').innerHTML = "Email Is Required";
-		e - mail.blur();
-		return false;
+		e-mail.blur();
+		x = false;
 	}
-	if(comment=='')
+	if(com=='')
 	{
 		document.getElementById('comment_error').innerHTML = "Comment Is Required";
-		return false;
+		x = false;
 	}
 
 	if (em != '') {
 		if (!(re.test(em))) {
 
 			document.getElementById('e-mail_error').innerHTML = "Email Is INVALID!";
-			return false;
+			x = false;
 		}
 	}
-	return submit;
+	if(x = true)
+	{
+		alert("Sending mail");
+		return true;
+	}
+	else if(x = false)
+	{
+		alert("reload");
+		return false;
+	}
 }
 
 function removewarning(e) {
@@ -55,16 +64,11 @@ function removewarning(e) {
 	n.innerHTML = "";
 }
 
-
-
 function reset(){
-
-
 	document.getElementById('fname').value = "";
 	document.getElementById('lname').value = "";
 	document.getElementById('subject').value = "";
 	document.getElementById('e-mail').value= "";
 	document.getElementById('comment').value = "";
-
 
 }
