@@ -35,6 +35,7 @@ function validate() {
 	if(com=='')
 	{
 		document.getElementById('comment_error').innerHTML = "Comment Is Required";
+		comment.blur();
 		x = false;
 	}
 
